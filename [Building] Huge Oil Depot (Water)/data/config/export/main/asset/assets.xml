@@ -1,0 +1,371 @@
+<ModOps>
+
+    <!-- iMYA - Title -->
+    <ImyaTweaks Title="Huge Oil Depot (Water)" Description="Adds new Oil Depots to the game." />
+
+    <!-- Huge Oil Depot OW -->
+    <ModOp Type="addNextSibling" GUID="100784">
+        <Asset>
+            <Template>HarborDepot</Template>
+            <Values>
+                <Standard>
+                    <GUID>2000510023</GUID>
+                    <Name>Huge Oil Depot (water) OW</Name>
+                    <IconFilename>data/ui/2kimages/main/3dicons/icon_huge_oil_depot_0.png</IconFilename>
+                    <InfoDescription>2000510024</InfoDescription>
+                </Standard>
+                <Building>
+                    <BuildingCategoryName>11150</BuildingCategoryName>
+                    <BuildModeRandomRotation>180</BuildModeRandomRotation>
+                    <AssociatedRegions>Moderate</AssociatedRegions>
+                    <SecondPartyRelevant>0</SecondPartyRelevant>
+                </Building>
+                <Blocking>
+                    <GroundDecalAsset>100446</GroundDecalAsset>
+                    <GroundDecalInvisible>101008</GroundDecalInvisible>
+                    <HasBuildingBaseTiles>1</HasBuildingBaseTiles>
+                </Blocking>
+                <Mesh />
+                <Object>
+                    <Variations>
+                        <Item>
+                            <Filename>data/graphics/buildings/special/huge_oil_depot/huge_oil_depot.cfg</Filename>
+                        </Item>
+                    </Variations>
+                </Object>
+                <AmbientMoodProvider>
+                    <Murmur>Harbor</Murmur>
+                </AmbientMoodProvider>
+                <Constructable />
+                <Selection>
+                    <OnSelection>
+                        <IsBaseAutoCreateAsset>1</IsBaseAutoCreateAsset>
+                        <Values>
+                            <ActionList />
+                        </Values>
+                    </OnSelection>
+                    <Colors>
+                        <WeakSelectionColorType>NoColor</WeakSelectionColorType>
+                    </Colors>
+                </Selection>
+                <Text>
+                    <LocaText>
+                        <English>
+                            <Text>Huge Oil Depot</Text>
+                            <Status>Exported</Status>
+                        </English>
+                    </LocaText>
+                    <LineID>7029</LineID>
+                </Text>
+                <Cost>
+                    <Costs>
+                        <Item>
+                            <Ingredient>1010017</Ingredient>
+                            <Amount>48000</Amount>
+                        </Item>
+                        <Item>
+                            <Ingredient>1010196</Ingredient>
+                            <Amount>45</Amount>
+                        </Item>
+                        <Item>
+                            <Ingredient>1010205</Ingredient>
+                            <Amount>40</Amount>
+                        </Item>
+                        <Item>
+                            <Ingredient>1010218</Ingredient>
+                            <Amount>100</Amount>
+                        </Item>
+                        <Item>
+                            <Ingredient>1010202</Ingredient>
+                            <Amount>60</Amount>
+                        </Item>
+                    </Costs>
+                </Cost>
+                <Attackable>
+                    <AttackableType>HarbourBuilding</AttackableType>
+                    <MaximumHitPoints>5000</MaximumHitPoints>
+                    <PausedTimeIfAttacked>0</PausedTimeIfAttacked>
+                    <DefenseByAIFactor>310</DefenseByAIFactor>
+                    <MoralePower>50</MoralePower>
+                    <IslandWarFlag>102303</IslandWarFlag>
+                    <ExplosionEffectsMin>2</ExplosionEffectsMin>
+                    <ExplosionEffectsMax>2</ExplosionEffectsMax>
+                    <SelfHealPerHealTick>5</SelfHealPerHealTick>
+                </Attackable>
+                <Warehouse>
+                    <WarehouseStorage>
+                        <StorageMax>1250</StorageMax>
+                    </WarehouseStorage>
+                </Warehouse>
+                <StorageBase>
+                    <ProductStorageList>120056</ProductStorageList>
+                </StorageBase>
+                <Locked>
+                    <DefaultLockedState>0</DefaultLockedState>
+                </Locked>
+                <Maintenance>
+                    <Maintenances>
+                        <Item>
+                            <Product>1010017</Product>
+                            <Amount>350</Amount>
+                            <InactiveAmount>350</InactiveAmount>
+                        </Item>
+                    </Maintenances>
+                </Maintenance>
+                <Pausable />
+                <SoundEmitter>
+                    <ActiveSounds>
+                        <Item>
+                            <Sound>200896</Sound>
+                        </Item>
+                        <Item>
+                            <Sound>200920</Sound>
+                        </Item>
+                    </ActiveSounds>
+                    <DestroySounds>
+                        <Item>
+                            <Sound>9818756</Sound>
+                        </Item>
+                    </DestroySounds>
+                    <IncidentSounds>
+                        <InfectedFire>
+                            <Item>
+                                <Sound>214659</Sound>
+                            </Item>
+                        </InfectedFire>
+                    </IncidentSounds>
+                    <BuildingRuined>
+                        <Item>
+                            <Sound>203848</Sound>
+                        </Item>
+                    </BuildingRuined>
+                    <BuildingRepaired>
+                        <Item>
+                            <Sound>203866</Sound>
+                        </Item>
+                    </BuildingRepaired>
+                </SoundEmitter>
+                <Infolayer />
+                <UpgradeList />
+                <LogisticNode>
+                    <TransporterCountMax>0</TransporterCountMax>
+                </LogisticNode>
+                <FeedbackController />
+            </Values>
+        </Asset>
+    </ModOp>
+    <!-- Huge Oil Depot NW -->
+    <ModOp Type="addNextSibling" GUID="101330">
+        <Asset>
+            <BaseAssetGUID>100784</BaseAssetGUID>
+            <Values>
+                <Standard>
+                    <GUID>2000510025</GUID>
+                    <Name>Huge Oil Depot (water) NW</Name>
+                    <IconFilename>data/ui/2kimages/main/3dicons/icon_huge_oil_depot_0.png</IconFilename>
+                    <InfoDescription>2000510026</InfoDescription>
+                </Standard>
+                <Building>
+                    <AssociatedRegions>Colony01</AssociatedRegions>
+                    <SecondPartyRelevant>0</SecondPartyRelevant>
+                </Building>
+                <Blocking>
+                    <GroundDecalAsset>102460</GroundDecalAsset>
+                    <GroundDecalInvisible>102459</GroundDecalInvisible>
+                </Blocking>
+                <Mesh />
+                <Object>
+                    <Variations>
+                        <Item>
+                            <VectorElement>
+                                <InheritedIndex>0</InheritedIndex>
+                                <InheritanceMapV2>
+                                    <Entry>
+                                        <TemplateName>HarborDepot</TemplateName>
+                                        <Index>0</Index>
+                                    </Entry>
+                                </InheritanceMapV2>
+                            </VectorElement>
+                            <Filename>data/graphics/buildings/special/huge_oil_depot_colony01/huge_oil_depot_colony01.cfg</Filename>
+                        </Item>
+                    </Variations>
+                </Object>
+                <AmbientMoodProvider />
+                <Constructable />
+                <Selection>
+                    <OnSelection>
+                        <IsBaseAutoCreateAsset>1</IsBaseAutoCreateAsset>
+                        <Values>
+                            <ActionList />
+                        </Values>
+                    </OnSelection>
+                </Selection>
+                <Text>
+                    <LocaText>
+                        <English>
+                            <Text>Huge Oil Depot</Text>
+                            <Status>Exported</Status>
+                        </English>
+                    </LocaText>
+                    <LineID>11040</LineID>
+                </Text>
+                <Cost>
+                    <Costs>
+                        <Item>
+                            <Ingredient>1010017</Ingredient>
+                            <Amount>48000</Amount>
+                        </Item>
+                        <Item>
+                            <Ingredient>1010196</Ingredient>
+                            <Amount>45</Amount>
+                        </Item>
+                        <Item>
+                            <Ingredient>1010205</Ingredient>
+                            <Amount>40</Amount>
+                        </Item>
+                        <Item>
+                            <Ingredient>1010218</Ingredient>
+                            <Amount>100</Amount>
+                        </Item>
+                        <Item>
+                            <Ingredient>1010202</Ingredient>
+                            <Amount>60</Amount>
+                        </Item>
+                    </Costs>
+                </Cost>
+                <Attackable />
+                <Warehouse>
+                    <WarehouseStorage>
+                        <StorageMax>1250</StorageMax>
+                    </WarehouseStorage>
+                </Warehouse>
+                <StorageBase />
+                <Locked>
+                    <DefaultLockedState>0</DefaultLockedState>
+                </Locked>
+                <Maintenance>
+                    <Maintenances>
+                        <Item>
+                            <Product>1010017</Product>
+                            <Amount>350</Amount>
+                            <InactiveAmount>350</InactiveAmount>
+                        </Item>
+                    </Maintenances>
+                </Maintenance>
+                <Pausable />
+                <SoundEmitter />
+                <Infolayer />
+                <UpgradeList />
+                <LogisticNode />
+                <FeedbackController />
+            </Values>
+        </Asset>
+    </ModOp>
+
+    <!-- Add both to the correct build menus -->
+    <group>
+        <!-- Old World Electricity -->
+        <ModOp Type="add" GUID="500506" Path="/Values/ProductionChain/Tier1/Item/Tier2">
+            <Item>
+                <Building>2000510023</Building>
+            </Item>
+        </ModOp>
+        <!-- Old World Fuel -->
+        <ModOp Type="add" GUID="269756" Path="/Values/ProductionChain/Tier1/Item/Tier2">
+            <Item>
+                <Building>2000510023</Building>
+            </Item>
+        </ModOp>
+        <!-- New World Electricity Obreros -->
+        <ModOp Type="add" GUID="500916" Path="/Values/ProductionChain/Tier1/Item/Tier2">
+            <Item>
+                <Building>2000510025</Building>
+            </Item>
+        </ModOp>
+        <!-- New World Electricity Arista -->
+        <ModOp Type="add" GUID="7305" Path="/Values/ProductionChain/Tier1/Item/Tier2">
+            <Item>
+                <Building>2000510025</Building>
+            </Item>
+        </ModOp>
+        <!-- New World Fuel -->
+        <ModOp Type="add" GUID="269835" Path="/Values/ProductionChain/Tier1/Item/Tier2">
+            <Item>
+                <Building>2000510025</Building>
+            </Item>
+        </ModOp>
+    </group>
+
+    <!-- Maintenance cost -->
+    <ModOp GUID="2000510023" Type="replace" Path="/Values/Maintenance/Maintenances/Item[Product='1010017']/Amount" ModOpID="CreditMaintenanceID">
+        <Amount>350</Amount>
+    </ModOp>
+    <ModOp GUID="2000510025" Type="replace" Path="/Values/Maintenance/Maintenances/Item[Product='1010017']/Amount" ModOpID="CreditMaintenanceID">
+        <Amount>350</Amount>
+    </ModOp>
+    <ImyaExpose Path="self::Amount" ModOpID="CreditMaintenanceID" ExposeID="CreditMaintenance" Description="Huge Oil Depot maintenance cost in credits." Kind="Slider">
+        <SliderDefinition Min="0" Max="2500" Stepping="25" />
+    </ImyaExpose>
+    <!-- capacity -->
+    <ModOp GUID="2000510023" Type="replace" Path="/Values/Warehouse/WarehouseStorage/StorageMax" ModOpID="StorageMaxID" Skip="1">
+        <StorageMax>1200</StorageMax>
+    </ModOp>
+    <ModOp GUID="2000510025" Type="replace" Path="/Values/Warehouse/WarehouseStorage/StorageMax" ModOpID="StorageMaxID" Skip="1">
+        <StorageMax>1200</StorageMax>
+    </ModOp>
+    <ImyaExpose Path="self::StorageMax" ModOpID="StorageMaxID" ExposeID="StorageMax" Description="Huge Oil Depot storage capacity." Kind="Slider">
+        <SliderDefinition Min="0" Max="25000" Stepping="50" />
+    </ImyaExpose>
+
+    <!-- Build cost - credits -->
+    <ModOp GUID="2000510023" Type="replace" Path="/Values/Cost/Costs/Item[Ingredient='1010017']/Amount" ModOpID="CreditsCostID">
+        <Amount>48000</Amount>
+    </ModOp>
+    <ModOp GUID="2000510025" Type="replace" Path="/Values/Cost/Costs/Item[Ingredient='1010017']/Amount" ModOpID="CreditsCostID">
+        <Amount>48000</Amount>
+    </ModOp>
+    <ImyaExpose Path="self::Amount" ModOpID="CreditsCostID" ExposeID="CreditsCost" Description="Build costs - Credits" Kind="Slider">
+        <SliderDefinition Min="0" Max="150000" Stepping="1000" />
+    </ImyaExpose>
+    <!-- Build cost - timber -->
+    <ModOp GUID="2000510023" Type="replace" Path="/Values/Cost/Costs/Item[Ingredient='1010196']/Amount" ModOpID="TimberID">
+        <Amount>45</Amount>
+    </ModOp>
+    <ModOp GUID="2000510025" Type="replace" Path="/Values/Cost/Costs/Item[Ingredient='1010196']/Amount" ModOpID="TimberID">
+        <Amount>45</Amount>
+    </ModOp>
+    <ImyaExpose Path="self::Amount" ModOpID="TimberID" ExposeID="Timber" Description="Build costs - Timber" Kind="Slider">
+        <SliderDefinition Min="0" Max="500" Stepping="1" />
+    </ImyaExpose>
+    <!-- Build cost - bricks -->
+    <ModOp GUID="2000510023" Type="replace" Path="/Values/Cost/Costs/Item[Ingredient='1010205']/Amount" ModOpID="BricksID">
+        <Amount>40</Amount>
+    </ModOp>
+    <ModOp GUID="2000510025" Type="replace" Path="/Values/Cost/Costs/Item[Ingredient='1010205']/Amount" ModOpID="BricksID">
+        <Amount>40</Amount>
+    </ModOp>
+    <ImyaExpose Path="self::Amount" ModOpID="BricksID" ExposeID="Bricks" Description="Build costs - Bricks" Kind="Slider">
+        <SliderDefinition Min="0" Max="500" Stepping="1" />
+    </ImyaExpose>
+    <!-- Build cost - Steel Beams -->
+    <ModOp GUID="2000510023" Type="replace" Path="/Values/Cost/Costs/Item[Ingredient='1010218']/Amount" ModOpID="SteelBeamsID">
+        <Amount>100</Amount>
+    </ModOp>
+    <ModOp GUID="2000510025" Type="replace" Path="/Values/Cost/Costs/Item[Ingredient='1010218']/Amount" ModOpID="SteelBeamsID">
+        <Amount>100</Amount>
+    </ModOp>
+    <ImyaExpose Path="self::Amount" ModOpID="SteelBeamsID" ExposeID="SteelBeams" Description="Build costs - Steel Beams" Kind="Slider">
+        <SliderDefinition Min="0" Max="500" Stepping="1" />
+    </ImyaExpose>
+    <!-- Build cost - Reinforced Concrete -->
+    <ModOp GUID="2000510023" Type="replace" Path="/Values/Cost/Costs/Item[Ingredient='1010202']/Amount" ModOpID="ReinforcedConcreteID">
+        <Amount>60</Amount>
+    </ModOp>
+    <ModOp GUID="2000510025" Type="replace" Path="/Values/Cost/Costs/Item[Ingredient='1010202']/Amount" ModOpID="ReinforcedConcreteID">
+        <Amount>60</Amount>
+    </ModOp>
+    <ImyaExpose Path="self::Amount" ModOpID="ReinforcedConcreteID" ExposeID="ReinforcedConcrete" Description="Build costs - Reinforced Concrete" Kind="Slider">
+        <SliderDefinition Min="0" Max="500" Stepping="1" />
+    </ImyaExpose>
+
+</ModOps>

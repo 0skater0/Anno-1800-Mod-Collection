@@ -1,0 +1,36 @@
+<ModOps>
+    <ModOp Type="add" Path="/TextExport/Texts">
+        <!-- Default Oil Tanker -->
+        <Text>
+            <GUID>100853</GUID>
+            <Text>Kleiner Öltanker</Text>
+        </Text>
+        <!-- Medium Oil Tanker -->
+        <Text>
+            <GUID>2000510000</GUID>
+            <Text>Leviathan</Text>
+        </Text>
+        <Text>
+            <GUID>2000510001</GUID>
+            <Text>Majestätisch in seiner Größe, ist der Leviathan für den effizienten Transport von Öl konstruiert.</Text>
+        </Text>
+        <!-- Large Oil Tanker -->
+        <Text>
+            <GUID>2000510004</GUID>
+            <Text>Triton</Text>
+        </Text>
+        <Text>
+            <GUID>2000510005</GUID>
+            <Text>Der Triton verkörpert modernste Ingenieurskunst. Mit seiner enormen Frachtkapazität setzt er Maßstäbe, während er speziell auf hoher See durch unschlagbare Geschwindigkeit brilliert.</Text>
+        </Text>
+        <!-- Small Steam Ship -->
+        <Text>
+            <GUID>2000510008</GUID>
+            <Text>Kleines Dampfschiff</Text>
+        </Text>
+        <Text>
+            <GUID>2000510009</GUID>
+            <Text>Das kleine Dampfschiff ist ein schnelles und wendiges Schiff.</Text>
+        </Text>
+    </ModOp>
+</ModOps>

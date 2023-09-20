@@ -1,0 +1,45 @@
+{
+  "Version": "1.0.0",
+  "ModID": "0skater0_HugeOilDepotWater",
+  "Category": {
+    "Chinese": "Building",
+    "English": "Building",
+    "French": "Building",
+    "German": "Building",
+    "Italian": "Building",
+    "Japanese": "Building",
+    "Korean": "Building",
+    "Polish": "Building",
+    "Russian": "Building",
+    "Spanish": "Building",
+    "Taiwanese": "Building"
+  },
+  "ModName": {
+    "Chinese": "Huge Oil Depot (Water)",
+    "English": "Huge Oil Depot (Water)",
+    "French": "Huge Oil Depot (Water)",
+    "German": "Huge Oil Depot (Water)",
+    "Italian": "Huge Oil Depot (Water)",
+    "Japanese": "Huge Oil Depot (Water)",
+    "Korean": "Huge Oil Depot (Water)",
+    "Polish": "Huge Oil Depot (Water)",
+    "Russian": "Huge Oil Depot (Water)",
+    "Spanish": "Huge Oil Depot (Water)",
+    "Taiwanese": "Huge Oil Depot (Water)"
+  },
+  "Description": {
+    "Chinese": "file::README.md",
+    "English": "file::README.md",
+    "French": "file::README.md",
+    "German": "file::README.md",
+    "Italian": "file::README.md",
+    "Japanese": "file::README.md",
+    "Korean": "file::README.md",
+    "Polish": "file::README.md",
+    "Russian": "file::README.md",
+    "Spanish": "file::README.md",
+    "Taiwanese": "file::README.md"
+  },
+  "CreatorName": "0skater0",
+  "CreatorContact": "https://github.com/0skater0/Anno-1800-Mod-Collection"
+}

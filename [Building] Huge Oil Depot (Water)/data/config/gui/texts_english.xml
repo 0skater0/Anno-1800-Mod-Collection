@@ -1,0 +1,23 @@
+<ModOps>
+    <ModOp Type="add" Path="/TextExport/Texts">
+        <!-- Huge Oil Depot OW -->
+        <Text>
+            <GUID>2000510023</GUID>
+            <Text>Huge Oil Depot</Text>
+        </Text>
+        <Text>
+            <GUID>2000510024</GUID>
+            <Text>Significantly increases island storage for oil.</Text>
+        </Text>
+
+        <!-- Huge Oil Depot NW -->
+        <Text>
+            <GUID>2000510025</GUID>
+            <Text>Huge Oil Depot</Text>
+        </Text>
+        <Text>
+            <GUID>2000510026</GUID>
+            <Text>Significantly increases island storage for oil.</Text>
+        </Text>
+    </ModOp>
+</ModOps>

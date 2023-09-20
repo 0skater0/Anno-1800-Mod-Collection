@@ -1,0 +1,1004 @@
+<ModOps>
+  <!-- iMYA - Title -->
+  <ImyaTweaks Title="Additional Steam Ships" Description="Adds a few new ships." />
+  <!-- Ships -->
+  <group>
+    <!-- Edit the default oil tanker -->
+    <ModOp Type="merge" GUID="100853" Path="/Values/">
+      <Text>
+        <LocaText>
+          <English>
+            <Text>Small Oil Tanker</Text>
+          </English>
+        </LocaText>
+      </Text>
+    </ModOp>
+    <!-- Medium Oil Tanker -->
+    <ModOp Type="addNextSibling" GUID="100853">
+      <Asset>
+        <Template>TradeShip</Template>
+        <Values>
+          <Standard>
+            <GUID>2000510000</GUID>
+            <Name>Medium Oil Tanker (Trade - Special)</Name>
+            <IconFilename>data/ui/2kimages/main/3dicons/ships/icon_ship_medium_oil_tanker_0.png</IconFilename>
+            <InfoDescription>2000510001</InfoDescription>
+          </Standard>
+          <Object>
+            <Variations>
+              <Item>
+                <Filename>data/graphics/vehicle/medium_oil_tanker/medium_oil_tanker.cfg</Filename>
+              </Item>
+            </Variations>
+          </Object>
+          <Mesh>
+            <MeshPlacement>OnWaterSlope</MeshPlacement>
+          </Mesh>
+          <Selection>
+            <MultiSelectable>1</MultiSelectable>
+            <OnSelection>
+              <IsBaseAutoCreateAsset>1</IsBaseAutoCreateAsset>
+              <Values>
+                <ActionList />
+              </Values>
+            </OnSelection>
+          </Selection>
+          <Walking>
+            <ShortenSailsAfter>0</ShortenSailsAfter>
+            <ReservationLength>16</ReservationLength>
+            <ReservationWidth>6</ReservationWidth>
+            <PathPlannerLayer>Water</PathPlannerLayer>
+            <ExpensiveDirSmoothing>1</ExpensiveDirSmoothing>
+            <TurnAroundRadius>8</TurnAroundRadius>
+            <Acceleration>0.65</Acceleration>
+            <Deceleration>1</Deceleration>
+            <TurnRadius>9</TurnRadius>
+            <TurnSpeedInPlace>18</TurnSpeedInPlace>
+            <TurnDeceleration>0</TurnDeceleration>
+            <TurnMovement>0</TurnMovement>
+            <LeaningMaxAngle>-10</LeaningMaxAngle>
+            <ForwardSpeed>5.5</ForwardSpeed>
+            <WindMinSlowdownFactor>1</WindMinSlowdownFactor>
+            <WindMaxSpeedupFactor>1</WindMaxSpeedupFactor>
+            <CargoFullFactor>0.8</CargoFullFactor>
+            <MinSlowdownFactor>0.5</MinSlowdownFactor>
+            <CurveSegmentDensity>High</CurveSegmentDensity>
+            <SessionTransferSpeedFactor>1.2</SessionTransferSpeedFactor>
+          </Walking>
+          <Text>
+            <LocaText>
+              <English>
+                <Text>Leviathan</Text>
+                <Status>Exported</Status>
+              </English>
+            </LocaText>
+            <LineID>14861</LineID>
+          </Text>
+          <CommandQueue>
+            <FormationPriority>1</FormationPriority>
+            <TradeShipPoints>4</TradeShipPoints>
+            <PriorityShipList>2</PriorityShipList>
+          </CommandQueue>
+          <Drifting>
+            <OverrideAssetWidthAndLength>0</OverrideAssetWidthAndLength>
+            <Length>10</Length>
+            <Width>2</Width>
+            <FactorMovement>0.7</FactorMovement>
+            <FactorRotation>0.65</FactorRotation>
+          </Drifting>
+          <Collector />
+          <Attackable>
+            <MaximumHitPoints>5500</MaximumHitPoints>
+            <AlertRange>150</AlertRange>
+            <HPBarOffset>4</HPBarOffset>
+            <SelfHealPerHealTick>1.667</SelfHealPerHealTick>
+            <SelfHealPausedTimeIfAttacked>60000</SelfHealPausedTimeIfAttacked>
+          </Attackable>
+          <MinimapToken>
+            <TokenAsset>2001947</TokenAsset>
+            <StrategicMapAsset>501018</StrategicMapAsset>
+          </MinimapToken>
+          <SoundEmitter>
+            <ActiveSounds>
+              <Item>
+                <Sound>201830</Sound>
+              </Item>
+            </ActiveSounds>
+            <DestroySounds>
+              <Item>
+                <Sound>238314</Sound>
+              </Item>
+            </DestroySounds>
+          </SoundEmitter>
+          <UpgradeList />
+          <QuestObject />
+          <Infolayer />
+          <ItemContainer>
+            <SocketAllocation>Ship;SteamShip;Tradeship</SocketAllocation>
+            <SlotCount>1</SlotCount>
+            <StackLimit>800</StackLimit>
+            <FixedSlotContent>1010566</FixedSlotContent>
+          </ItemContainer>
+          <FeedbackController />
+          <Draggable>
+            <DraggableOnDrag>
+              <IsBaseAutoCreateAsset>1</IsBaseAutoCreateAsset>
+              <Values>
+                <ActionList />
+              </Values>
+            </DraggableOnDrag>
+            <DraggableOnDrop>
+              <IsBaseAutoCreateAsset>1</IsBaseAutoCreateAsset>
+              <Values>
+                <ActionList />
+              </Values>
+            </DraggableOnDrop>
+          </Draggable>
+          <Cost>
+            <Costs>
+              <Item>
+                <Ingredient>1010218</Ingredient>
+                <Amount>38</Amount>
+              </Item>
+              <Item>
+                <Ingredient>1010224</Ingredient>
+                <Amount>26</Amount>
+              </Item>
+              <Item>
+                <Ingredient>838</Ingredient>
+                <Amount>15</Amount>
+              </Item>
+            </Costs>
+            <InfluenceCostType>TradeShip</InfluenceCostType>
+            <InfluenceCostPoints>12</InfluenceCostPoints>
+          </Cost>
+          <Craftable>
+            <CraftingTime>720000</CraftingTime>
+          </Craftable>
+          <TradeRouteVehicle>
+            <LoadingSpeedFactor>1.2</LoadingSpeedFactor>
+          </TradeRouteVehicle>
+          <Locked />
+          <Nameable />
+          <MetaPersistent />
+          <ExpeditionAttribute>
+            <ExpeditionAttributes>
+              <Item>
+                <Attribute>PerkTradeShip</Attribute>
+                <Amount>1</Amount>
+              </Item>
+              <Item>
+                <Attribute>PerkSteamShip</Attribute>
+                <Amount>1</Amount>
+              </Item>
+            </ExpeditionAttributes>
+          </ExpeditionAttribute>
+          <ShipMaintenance>
+            <Maintenance>650</Maintenance>
+          </ShipMaintenance>
+          <Sellable>
+            <Baseprice>
+              <Item>
+                <VectorElement>
+                  <InheritedIndex>0</InheritedIndex>
+                  <InheritanceMapV2>
+                    <Entry>
+                      <TemplateName>TradeShip</TemplateName>
+                      <Index>0</Index>
+                    </Entry>
+                  </InheritanceMapV2>
+                </VectorElement>
+                <Amount>420000</Amount>
+              </Item>
+            </Baseprice>
+          </Sellable>
+          <Stance />
+          <Rentable />
+          <WorldMapSound />
+          <Pausable />
+          <ShipIncident />
+          <SoundEmitterCommandBarks>
+            <BarkMapping>
+              <Selection>
+                <AudioPool>700078</AudioPool>
+              </Selection>
+              <SelectionDamaged>
+                <AudioPool>700109</AudioPool>
+              </SelectionDamaged>
+              <MoveCommand>
+                <AudioPool>700080</AudioPool>
+              </MoveCommand>
+              <EscortCommand>
+                <AudioPool>700107</AudioPool>
+              </EscortCommand>
+              <PatrolCommand>
+                <AudioPool>700106</AudioPool>
+              </PatrolCommand>
+            </BarkMapping>
+          </SoundEmitterCommandBarks>
+        </Values>
+      </Asset>
+      <Asset>
+        <Template>FeatureUnlock</Template>
+        <Values>
+          <Standard>
+            <GUID>2000510002</GUID>
+            <Name>Unlock Medium Oil Tanker</Name>
+          </Standard>
+          <Locked />
+          <Trigger>
+            <TriggerCondition>
+              <Template>ConditionPlayerCounter</Template>
+              <Values>
+                <Condition />
+                <ConditionPlayerCounter>
+                  <PlayerCounter>PopulationByLevel</PlayerCounter>
+                  <Context>15000003</Context>
+                  <CounterAmount>850</CounterAmount>
+                </ConditionPlayerCounter>
+              </Values>
+            </TriggerCondition>
+            <TriggerActions>
+              <Item>
+                <TriggerAction>
+                  <Template>ActionUnlockAsset</Template>
+                  <Values>
+                    <Action />
+                    <ActionUnlockAsset>
+                      <UnlockAssets>
+                        <Item>
+                          <Asset>2000510000</Asset>
+                        </Item>
+                      </UnlockAssets>
+                    </ActionUnlockAsset>
+                  </Values>
+                </TriggerAction>
+              </Item>
+            </TriggerActions>
+          </Trigger>
+          <TriggerSetup>
+            <UsedBySecondParties>0</UsedBySecondParties>
+          </TriggerSetup>
+        </Values>
+      </Asset>
+      <Asset>
+        <Template>FeatureUnlock</Template>
+        <Values>
+          <Standard>
+            <GUID>2000510003</GUID>
+            <Name>Creative Mode</Name>
+            <IconFilename>data/ui/2kimages/main/profiles/resident_tier01.png</IconFilename>
+          </Standard>
+          <Trigger>
+            <TriggerCondition>
+              <Template>ConditionIsCreativeMode</Template>
+              <Values>
+                <Condition />
+                <ConditionIsCreativeMode />
+              </Values>
+            </TriggerCondition>
+            <TriggerActions>
+              <Item>
+                <TriggerAction>
+                  <Template>ActionUnlockAsset</Template>
+                  <Values>
+                    <Action />
+                    <ActionUnlockAsset>
+                      <UnlockAssets>
+                        <Item>
+                          <Asset>2000510000</Asset>
+                        </Item>
+                      </UnlockAssets>
+                    </ActionUnlockAsset>
+                  </Values>
+                </TriggerAction>
+              </Item>
+            </TriggerActions>
+          </Trigger>
+          <TriggerSetup>
+            <UsedBySecondParties>0</UsedBySecondParties>
+          </TriggerSetup>
+        </Values>
+      </Asset>
+    </ModOp>
+    <!-- Large Oil Tanker -->
+    <ModOp Type="addNextSibling" GUID="100853">
+      <Asset>
+        <Template>TradeShip</Template>
+        <Values>
+          <Standard>
+            <GUID>2000510004</GUID>
+            <Name>Large Oil Tanker (Trade - Special)</Name>
+            <IconFilename>data/ui/2kimages/main/3dicons/ships/icon_ship_large_oil_tanker.png</IconFilename>
+            <InfoDescription>2000510005</InfoDescription>
+          </Standard>
+          <Object>
+            <Variations>
+              <Item>
+                <Filename>data/graphics/vehicle/large_oil_tanker/large_oil_tanker.cfg</Filename>
+              </Item>
+            </Variations>
+            <Skins>
+              <DefaultSkinName>100853</DefaultSkinName>
+              <DefaultSkinCategoryName>7312</DefaultSkinCategoryName>
+            </Skins>
+          </Object>
+          <Mesh>
+            <MeshPlacement>OnWaterSlope</MeshPlacement>
+          </Mesh>
+          <Selection>
+            <MultiSelectable>1</MultiSelectable>
+            <OnSelection>
+              <IsBaseAutoCreateAsset>1</IsBaseAutoCreateAsset>
+              <Values>
+                <ActionList />
+              </Values>
+            </OnSelection>
+          </Selection>
+          <Walking>
+            <ShortenSailsAfter>0</ShortenSailsAfter>
+            <ReservationLength>16</ReservationLength>
+            <ReservationWidth>6</ReservationWidth>
+            <PathPlannerLayer>Water</PathPlannerLayer>
+            <ExpensiveDirSmoothing>1</ExpensiveDirSmoothing>
+            <TurnAroundRadius>8</TurnAroundRadius>
+            <Acceleration>0.4</Acceleration>
+            <Deceleration>1</Deceleration>
+            <TurnRadius>12</TurnRadius>
+            <TurnSpeedInPlace>16</TurnSpeedInPlace>
+            <TurnDeceleration>0</TurnDeceleration>
+            <TurnMovement>0</TurnMovement>
+            <LeaningMaxAngle>-10</LeaningMaxAngle>
+            <ForwardSpeed>4.5</ForwardSpeed>
+            <WindMinSlowdownFactor>1</WindMinSlowdownFactor>
+            <WindMaxSpeedupFactor>1</WindMaxSpeedupFactor>
+            <CargoFullFactor>0.8</CargoFullFactor>
+            <MinSlowdownFactor>0.5</MinSlowdownFactor>
+            <CurveSegmentDensity>High</CurveSegmentDensity>
+            <SessionTransferSpeedFactor>1.7</SessionTransferSpeedFactor>
+          </Walking>
+          <Text>
+            <LocaText>
+              <English>
+                <Text>Triton</Text>
+                <Status>Exported</Status>
+              </English>
+            </LocaText>
+            <LineID>14861</LineID>
+          </Text>
+          <CommandQueue>
+            <FormationPriority>1</FormationPriority>
+            <TradeShipPoints>4</TradeShipPoints>
+            <PriorityShipList>2</PriorityShipList>
+          </CommandQueue>
+          <Drifting>
+            <OverrideAssetWidthAndLength>0</OverrideAssetWidthAndLength>
+            <Length>10</Length>
+            <Width>2</Width>
+            <FactorMovement>0.7</FactorMovement>
+            <FactorRotation>0.65</FactorRotation>
+          </Drifting>
+          <Collector />
+          <Attackable>
+            <MaximumHitPoints>6000</MaximumHitPoints>
+            <AlertRange>150</AlertRange>
+            <HPBarOffset>4</HPBarOffset>
+            <SelfHealPerHealTick>1.667</SelfHealPerHealTick>
+            <SelfHealPausedTimeIfAttacked>60000</SelfHealPausedTimeIfAttacked>
+          </Attackable>
+          <MinimapToken>
+            <TokenAsset>2001947</TokenAsset>
+            <StrategicMapAsset>501018</StrategicMapAsset>
+          </MinimapToken>
+          <SoundEmitter>
+            <ActiveSounds>
+              <Item>
+                <Sound>201830</Sound>
+              </Item>
+            </ActiveSounds>
+            <DestroySounds>
+              <Item>
+                <Sound>238314</Sound>
+              </Item>
+            </DestroySounds>
+          </SoundEmitter>
+          <UpgradeList />
+          <QuestObject />
+          <Infolayer />
+          <ItemContainer>
+            <SocketAllocation>Ship;SteamShip;Tradeship</SocketAllocation>
+            <SlotCount>1</SlotCount>
+            <StackLimit>1200</StackLimit>
+            <FixedSlotContent>1010566</FixedSlotContent>
+          </ItemContainer>
+          <FeedbackController />
+          <Draggable>
+            <DraggableOnDrag>
+              <IsBaseAutoCreateAsset>1</IsBaseAutoCreateAsset>
+              <Values>
+                <ActionList />
+              </Values>
+            </DraggableOnDrag>
+            <DraggableOnDrop>
+              <IsBaseAutoCreateAsset>1</IsBaseAutoCreateAsset>
+              <Values>
+                <ActionList />
+              </Values>
+            </DraggableOnDrop>
+          </Draggable>
+          <Cost>
+            <Costs>
+              <Item>
+                <Ingredient>1010218</Ingredient>
+                <Amount>60</Amount>
+              </Item>
+              <Item>
+                <Ingredient>1010224</Ingredient>
+                <Amount>40</Amount>
+              </Item>
+              <Item>
+                <Ingredient>838</Ingredient>
+                <Amount>25</Amount>
+              </Item>
+            </Costs>
+            <InfluenceCostType>TradeShip</InfluenceCostType>
+            <InfluenceCostPoints>15</InfluenceCostPoints>
+          </Cost>
+          <Craftable>
+            <CraftingTime>1080000</CraftingTime>
+          </Craftable>
+          <TradeRouteVehicle>
+            <LoadingSpeedFactor>0.8</LoadingSpeedFactor>
+          </TradeRouteVehicle>
+          <Locked />
+          <Nameable />
+          <MetaPersistent />
+          <ExpeditionAttribute>
+            <ExpeditionAttributes>
+              <Item>
+                <Attribute>PerkTradeShip</Attribute>
+                <Amount>1</Amount>
+              </Item>
+              <Item>
+                <Attribute>PerkSteamShip</Attribute>
+                <Amount>1</Amount>
+              </Item>
+            </ExpeditionAttributes>
+          </ExpeditionAttribute>
+          <ShipMaintenance>
+            <Maintenance>850</Maintenance>
+          </ShipMaintenance>
+          <Sellable>
+            <Baseprice>
+              <Item>
+                <VectorElement>
+                  <InheritedIndex>0</InheritedIndex>
+                  <InheritanceMapV2>
+                    <Entry>
+                      <TemplateName>TradeShip</TemplateName>
+                      <Index>0</Index>
+                    </Entry>
+                  </InheritanceMapV2>
+                </VectorElement>
+                <Amount>750000</Amount>
+              </Item>
+            </Baseprice>
+          </Sellable>
+          <Stance />
+          <Rentable />
+          <WorldMapSound />
+          <Pausable />
+          <ShipIncident />
+          <SoundEmitterCommandBarks>
+            <BarkMapping>
+              <Selection>
+                <AudioPool>700078</AudioPool>
+              </Selection>
+              <SelectionDamaged>
+                <AudioPool>700109</AudioPool>
+              </SelectionDamaged>
+              <MoveCommand>
+                <AudioPool>700080</AudioPool>
+              </MoveCommand>
+              <EscortCommand>
+                <AudioPool>700107</AudioPool>
+              </EscortCommand>
+              <PatrolCommand>
+                <AudioPool>700106</AudioPool>
+              </PatrolCommand>
+            </BarkMapping>
+          </SoundEmitterCommandBarks>
+        </Values>
+      </Asset>
+      <Asset>
+        <Template>FeatureUnlock</Template>
+        <Values>
+          <Standard>
+            <GUID>2000510006</GUID>
+            <Name>Unlock Large Oil Tanker</Name>
+          </Standard>
+          <Locked />
+          <Trigger>
+            <TriggerCondition>
+              <Template>ConditionPlayerCounter</Template>
+              <Values>
+                <Condition />
+                <ConditionPlayerCounter>
+                  <PlayerCounter>PopulationByLevel</PlayerCounter>
+                  <Context>15000004</Context>
+                  <CounterAmount>500</CounterAmount>
+                </ConditionPlayerCounter>
+              </Values>
+            </TriggerCondition>
+            <TriggerActions>
+              <Item>
+                <TriggerAction>
+                  <Template>ActionUnlockAsset</Template>
+                  <Values>
+                    <Action />
+                    <ActionUnlockAsset>
+                      <UnlockAssets>
+                        <Item>
+                          <Asset>2000510004</Asset>
+                        </Item>
+                      </UnlockAssets>
+                    </ActionUnlockAsset>
+                  </Values>
+                </TriggerAction>
+              </Item>
+            </TriggerActions>
+          </Trigger>
+          <TriggerSetup>
+            <UsedBySecondParties>0</UsedBySecondParties>
+          </TriggerSetup>
+        </Values>
+      </Asset>
+      <Asset>
+        <Template>FeatureUnlock</Template>
+        <Values>
+          <Standard>
+            <GUID>2000510007</GUID>
+            <Name>Creative Mode</Name>
+            <IconFilename>data/ui/2kimages/main/profiles/resident_tier01.png</IconFilename>
+          </Standard>
+          <Trigger>
+            <TriggerCondition>
+              <Template>ConditionIsCreativeMode</Template>
+              <Values>
+                <Condition />
+                <ConditionIsCreativeMode />
+              </Values>
+            </TriggerCondition>
+            <TriggerActions>
+              <Item>
+                <TriggerAction>
+                  <Template>ActionUnlockAsset</Template>
+                  <Values>
+                    <Action />
+                    <ActionUnlockAsset>
+                      <UnlockAssets>
+                        <Item>
+                          <Asset>2000510004</Asset>
+                        </Item>
+                      </UnlockAssets>
+                    </ActionUnlockAsset>
+                  </Values>
+                </TriggerAction>
+              </Item>
+            </TriggerActions>
+          </Trigger>
+          <TriggerSetup>
+            <UsedBySecondParties>0</UsedBySecondParties>
+          </TriggerSetup>
+        </Values>
+      </Asset>
+    </ModOp>
+    <!-- Small Steam Ship -->
+    <ModOp Type="addPrevSibling" GUID="1010062">
+      <Asset>
+        <Template>TradeShip</Template>
+        <Values>
+          <Standard>
+            <GUID>2000510008</GUID>
+            <Name>Small Steam Ship</Name>
+            <IconFilename>data/ui/2kimages/main/3dicons/ships/icon_ship_small_steam_ship.png</IconFilename>
+            <InfoDescription>2000510009</InfoDescription>
+          </Standard>
+          <Object>
+            <Variations>
+              <Item>
+                <Filename>data/graphics/vehicle/small_steam_ship/small_steam_ship.cfg</Filename>
+              </Item>
+            </Variations>
+          </Object>
+          <Mesh>
+            <MeshPlacement>OnWaterSlope</MeshPlacement>
+          </Mesh>
+          <Selection>
+            <MultiSelectable>1</MultiSelectable>
+            <OnSelection>
+              <IsBaseAutoCreateAsset>1</IsBaseAutoCreateAsset>
+              <Values>
+                <ActionList />
+              </Values>
+            </OnSelection>
+          </Selection>
+          <Walking>
+            <ShortenSailsAfter>0</ShortenSailsAfter>
+            <ReservationLength>16</ReservationLength>
+            <ReservationWidth>6</ReservationWidth>
+            <PathPlannerLayer>Water</PathPlannerLayer>
+            <ExpensiveDirSmoothing>1</ExpensiveDirSmoothing>
+            <TurnAroundRadius>8</TurnAroundRadius>
+            <Acceleration>2.5</Acceleration>
+            <Deceleration>2.2</Deceleration>
+            <TurnRadius>4</TurnRadius>
+            <TurnSpeedInPlace>25</TurnSpeedInPlace>
+            <TurnDeceleration>0</TurnDeceleration>
+            <TurnMovement>0</TurnMovement>
+            <LeaningMaxAngle>-10</LeaningMaxAngle>
+            <ForwardSpeed>8</ForwardSpeed>
+            <WindMinSlowdownFactor>1</WindMinSlowdownFactor>
+            <WindMaxSpeedupFactor>1</WindMaxSpeedupFactor>
+            <CargoFullFactor>0.8</CargoFullFactor>
+            <MinSlowdownFactor>0.5</MinSlowdownFactor>
+            <CurveSegmentDensity>High</CurveSegmentDensity>
+            <SessionTransferSpeedFactor>1</SessionTransferSpeedFactor>
+          </Walking>
+          <Text>
+            <LocaText>
+              <English>
+                <Text>Small Steam Ship</Text>
+                <Status>Exported</Status>
+              </English>
+            </LocaText>
+            <LineID>14861</LineID>
+          </Text>
+          <CommandQueue>
+            <FormationPriority>1</FormationPriority>
+            <TradeShipPoints>4</TradeShipPoints>
+            <PriorityShipList>2</PriorityShipList>
+          </CommandQueue>
+          <Drifting>
+            <OverrideAssetWidthAndLength>0</OverrideAssetWidthAndLength>
+            <Length>7</Length>
+            <Width>1.5</Width>
+            <FactorMovement>0.7</FactorMovement>
+            <FactorRotation>0.65</FactorRotation>
+          </Drifting>
+          <Collector />
+          <Attackable>
+            <MaximumHitPoints>3000</MaximumHitPoints>
+            <AlertRange>115</AlertRange>
+            <HPBarOffset>4</HPBarOffset>
+            <SelfHealPerHealTick>1.667</SelfHealPerHealTick>
+            <SelfHealPausedTimeIfAttacked>60000</SelfHealPausedTimeIfAttacked>
+          </Attackable>
+          <MinimapToken>
+            <TokenAsset>2001947</TokenAsset>
+            <StrategicMapAsset>501018</StrategicMapAsset>
+          </MinimapToken>
+          <SoundEmitter>
+            <ActiveSounds>
+              <Item>
+                <Sound>201827</Sound>
+              </Item>
+            </ActiveSounds>
+            <DestroySounds>
+              <Item>
+                <Sound>238314</Sound>
+              </Item>
+            </DestroySounds>
+          </SoundEmitter>
+          <UpgradeList />
+          <QuestObject />
+          <Infolayer />
+          <ItemContainer>
+            <SocketCount>2</SocketCount>
+            <SocketAllocation>Ship;SteamShip;Tradeship</SocketAllocation>
+            <SlotCount>1</SlotCount>
+            <StackLimit>50</StackLimit>
+          </ItemContainer>
+          <FeedbackController />
+          <Draggable>
+            <DraggableOnDrag>
+              <IsBaseAutoCreateAsset>1</IsBaseAutoCreateAsset>
+              <Values>
+                <ActionList />
+              </Values>
+            </DraggableOnDrag>
+            <DraggableOnDrop>
+              <IsBaseAutoCreateAsset>1</IsBaseAutoCreateAsset>
+              <Values>
+                <ActionList />
+              </Values>
+            </DraggableOnDrop>
+          </Draggable>
+          <Cost>
+            <Costs>
+              <Item>
+                <Ingredient>1010218</Ingredient>
+                <Amount>12</Amount>
+              </Item>
+              <Item>
+                <Ingredient>1010224</Ingredient>
+                <Amount>10</Amount>
+              </Item>
+            </Costs>
+            <InfluenceCostType>TradeShip</InfluenceCostType>
+            <InfluenceCostPoints>2</InfluenceCostPoints>
+          </Cost>
+          <Craftable>
+            <CraftingTime>360000</CraftingTime>
+          </Craftable>
+          <TradeRouteVehicle>
+            <LoadingSpeedFactor>1</LoadingSpeedFactor>
+          </TradeRouteVehicle>
+          <Locked>
+            <DefaultLockedState>0</DefaultLockedState>
+          </Locked>
+          <Nameable />
+          <MetaPersistent />
+          <ExpeditionAttribute>
+            <BaseMorale>65</BaseMorale>
+            <ExpeditionAttributes>
+              <Item>
+                <Attribute>Might</Attribute>
+              </Item>
+              <Item>
+                <Attribute>Navigation</Attribute>
+                <Amount>14</Amount>
+              </Item>
+              <Item>
+                <Attribute>PerkTradeShip</Attribute>
+                <Amount>1</Amount>
+              </Item>
+              <Item>
+                <Attribute>PerkSteamShip</Attribute>
+                <Amount>1</Amount>
+              </Item>
+            </ExpeditionAttributes>
+          </ExpeditionAttribute>
+          <ShipMaintenance>
+            <Maintenance>150</Maintenance>
+          </ShipMaintenance>
+          <Sellable>
+            <Baseprice>
+              <Item>
+                <VectorElement>
+                  <InheritedIndex>0</InheritedIndex>
+                  <InheritanceMapV2>
+                    <Entry>
+                      <TemplateName>TradeShip</TemplateName>
+                      <Index>0</Index>
+                    </Entry>
+                  </InheritanceMapV2>
+                </VectorElement>
+                <Amount>125000</Amount>
+              </Item>
+            </Baseprice>
+          </Sellable>
+          <Stance />
+          <Rentable />
+          <WorldMapSound />
+          <Pausable />
+          <ShipIncident />
+          <SoundEmitterCommandBarks>
+            <BarkMapping>
+              <Selection>
+                <AudioPool>700094</AudioPool>
+              </Selection>
+              <SelectionDamaged>
+                <AudioPool>700125</AudioPool>
+              </SelectionDamaged>
+              <MoveCommand>
+                <AudioPool>700095</AudioPool>
+              </MoveCommand>
+              <EscortCommand>
+                <AudioPool>700127</AudioPool>
+              </EscortCommand>
+              <PatrolCommand>
+                <AudioPool>700126</AudioPool>
+              </PatrolCommand>
+            </BarkMapping>
+          </SoundEmitterCommandBarks>
+        </Values>
+      </Asset>
+    </ModOp>
+  </group>
+  <!-- ADD SHIPS TO STEAM SHIPYARD -->
+  <group>
+    <ModOp Type="addNextSibling" GUID="1010521" Path="/Values/Shipyard/AssemblyOptions/Item[Vehicle='100853']">
+      <!-- Medium Oil Tanker -->
+      <Item>
+        <Vehicle>2000510000</Vehicle>
+      </Item>
+      <!-- Giant Oil Tanker -->
+      <Item>
+        <Vehicle>2000510004</Vehicle>
+      </Item>
+    </ModOp>
+    <ModOp Type="addPrevSibling" GUID="1010521" Path="/Values/Shipyard/AssemblyOptions/Item[Vehicle='1010062']">
+      <!-- Small Steam Ship -->
+      <Item>
+        <Vehicle>2000510008</Vehicle>
+      </Item>
+    </ModOp>
+  </group>
+  <!-- ADD ItemEffectTargetPool -->
+  <ModOp Type="add" GUID="193982" Path="/Values/ItemEffectTargetPool/EffectTargetGUIDs">
+    <!-- Medium Oil Tanker -->
+    <Item>
+      <GUID>2000510000</GUID>
+    </Item>
+    <!-- Giant Oil Tanker -->
+    <Item>
+      <GUID>2000510004</GUID>
+    </Item>
+    <!-- Small Steam Ship -->
+    <Item>
+      <GUID>2000510008</GUID>
+    </Item>
+  </ModOp>
+  <!-- Oil Traderoute -->
+  <ModOp Type="merge" GUID="140011" Path="/Values/TradeRouteFeature/TransportationTypes/Oil">
+    <MaxGoodTransferAmount>1000</MaxGoodTransferAmount>
+    <DefaultGoodTransferAmount>1000</DefaultGoodTransferAmount>
+  </ModOp>
+  <!-- iMYA - Medium Oil Tanker - maintenance cost -->
+  <ModOp GUID="2000510000" Type="replace" Path="/Values/ShipMaintenance/Maintenance" ModOpID="MediumOilTankerMaintenanceID">
+    <Maintenance>650</Maintenance>
+  </ModOp>
+  <ImyaExpose Path="self::Maintenance" ModOpID="MediumOilTankerMaintenanceID" ExposeID="MediumOilTankerMaintenance" Description="Medium Oil Tanker maintenance cost in credits." Kind="Slider">
+    <SliderDefinition Min="0" Max="2500" Stepping="25" />
+  </ImyaExpose>
+  <!-- iMYA - Medium Oil Tanker - influence cost -->
+  <ModOp GUID="2000510000" Type="replace" Path="/Values/Cost/InfluenceCostPoints" ModOpID="MediumOilTankerInfluenceCostPointsID">
+    <InfluenceCostPoints>12</InfluenceCostPoints>
+  </ModOp>
+  <ImyaExpose Path="self::InfluenceCostPoints" ModOpID="MediumOilTankerInfluenceCostPointsID" ExposeID="MediumOilTankerInfluenceCostPoints" Description="Medium Oil Tanker influence point cost." Kind="Slider">
+    <SliderDefinition Min="0" Max="250" Stepping="1" />
+  </ImyaExpose>
+  <!-- iMYA - Medium Oil Tanker - craft speed -->
+  <ModOp GUID="2000510000" Type="replace" Path="/Values/Craftable/CraftingTime" ModOpID="MediumOilTankerCraftingTimeID">
+    <CraftingTime>720000</CraftingTime>
+  </ModOp>
+  <ImyaExpose Path="self::CraftingTime" ModOpID="MediumOilTankerCraftingTimeID" ExposeID="MediumOilTankerCraftingTime" Description="Medium Oil Tanker crafting time in ms." Kind="Slider">
+    <SliderDefinition Min="0" Max="2000000" Stepping="15000" />
+  </ImyaExpose>
+  <!-- iMYA - Medium Oil Tanker - build cost - steel beams -->
+  <ModOp GUID="2000510000" Type="replace" Path="/Values/Cost/Costs/Item[Ingredient='1010218']/Amount" ModOpID="MediumOilTankerSteelBeamsBuildCostID">
+    <Amount>38</Amount>
+  </ModOp>
+  <ImyaExpose Path="self::Amount" ModOpID="MediumOilTankerSteelBeamsBuildCostID" ExposeID="MediumOilTankerSteelBeamsBuildCost" Description="Medium Oil Tanker steal beam build cost." Kind="Slider">
+    <SliderDefinition Min="0" Max="500" Stepping="1" />
+  </ImyaExpose>
+  <!-- iMYA - Medium Oil Tanker - build cost - steam motors -->
+  <ModOp GUID="2000510000" Type="replace" Path="/Values/Cost/Costs/Item[Ingredient='1010224']/Amount" ModOpID="MediumOilTankerSteamMotorsBuildCostID">
+    <Amount>26</Amount>
+  </ModOp>
+  <ImyaExpose Path="self::Amount" ModOpID="MediumOilTankerSteamMotorsBuildCostID" ExposeID="MediumOilTankerSteamMotorsBuildCost" Description="Medium Oil Tanker steam motors build cost." Kind="Slider">
+    <SliderDefinition Min="0" Max="500" Stepping="1" />
+  </ImyaExpose>
+  <!-- iMYA - Medium Oil Tanker - build cost - aluminium profiles -->
+  <ModOp GUID="2000510000" Type="replace" Path="/Values/Cost/Costs/Item[Ingredient='838']/Amount" ModOpID="MediumOilTankerAluminiumProfilesBuildCostID">
+    <Amount>15</Amount>
+  </ModOp>
+  <ImyaExpose Path="self::Amount" ModOpID="MediumOilTankerAluminiumProfilesBuildCostID" ExposeID="MediumOilTankerAluminiumProfilesBuildCost" Description="Medium Oil Tanker steal beam build cost." Kind="Slider">
+    <SliderDefinition Min="0" Max="500" Stepping="1" />
+  </ImyaExpose>
+  <!-- iMYA - Medium Oil Tanker - oil capacity -->
+  <ModOp GUID="2000510000" Type="replace" Path="/Values/ItemContainer/StackLimit" ModOpID="MediumOilTankerOilCapacityID">
+    <StackLimit>800</StackLimit>
+  </ModOp>
+  <ImyaExpose Path="self::StackLimit" ModOpID="MediumOilTankerOilCapacityID" ExposeID="MediumOilTankerOilCapacity" Description="Medium Oil Tanker oil capacity." Kind="Slider">
+    <SliderDefinition Min="0" Max="5000" Stepping="25" />
+  </ImyaExpose>
+
+  <!-- iMYA - Large Oil Tanker - maintenance cost -->
+  <ModOp GUID="2000510004" Type="replace" Path="/Values/ShipMaintenance/Maintenance" ModOpID="LargeOilTankerMaintenanceID">
+    <Maintenance>850</Maintenance>
+  </ModOp>
+  <ImyaExpose Path="self::Maintenance" ModOpID="LargeOilTankerMaintenanceID" ExposeID="LargeOilTankerMaintenance" Description="Large Oil Tanker maintenance cost in credits." Kind="Slider">
+    <SliderDefinition Min="0" Max="2500" Stepping="25" />
+  </ImyaExpose>
+  <!-- iMYA - Large Oil Tanker - influence cost -->
+  <ModOp GUID="2000510004" Type="replace" Path="/Values/Cost/InfluenceCostPoints" ModOpID="LargeOilTankerInfluenceCostPointsID">
+    <InfluenceCostPoints>15</InfluenceCostPoints>
+  </ModOp>
+  <ImyaExpose Path="self::InfluenceCostPoints" ModOpID="LargeOilTankerInfluenceCostPointsID" ExposeID="LargeOilTankerInfluenceCostPoints" Description="Large Oil Tanker influence point cost." Kind="Slider">
+    <SliderDefinition Min="0" Max="250" Stepping="1" />
+  </ImyaExpose>
+  <!-- iMYA - Large Oil Tanker - craft speed -->
+  <ModOp GUID="2000510004" Type="replace" Path="/Values/Craftable/CraftingTime" ModOpID="LargeOilTankerCraftingTimeID">
+    <CraftingTime>1080000</CraftingTime>
+  </ModOp>
+  <ImyaExpose Path="self::CraftingTime" ModOpID="LargeOilTankerCraftingTimeID" ExposeID="LargeOilTankerCraftingTime" Description="Large Oil Tanker crafting time in ms." Kind="Slider">
+    <SliderDefinition Min="0" Max="2000000" Stepping="15000" />
+  </ImyaExpose>
+  <!-- iMYA - Large Oil Tanker - build cost - steel beams -->
+  <ModOp GUID="2000510004" Type="replace" Path="/Values/Cost/Costs/Item[Ingredient='1010218']/Amount" ModOpID="LargeOilTankerSteelBeamsBuildCostID">
+    <Amount>60</Amount>
+  </ModOp>
+  <ImyaExpose Path="self::Amount" ModOpID="LargeOilTankerSteelBeamsBuildCostID" ExposeID="LargeOilTankerSteelBeamsBuildCost" Description="Large Oil Tanker steal beam build cost." Kind="Slider">
+    <SliderDefinition Min="0" Max="500" Stepping="1" />
+  </ImyaExpose>
+  <!-- iMYA - Large Oil Tanker - build cost - steam motors -->
+  <ModOp GUID="2000510004" Type="replace" Path="/Values/Cost/Costs/Item[Ingredient='1010224']/Amount" ModOpID="LargeOilTankerSteamMotorsBuildCostID">
+    <Amount>40</Amount>
+  </ModOp>
+  <ImyaExpose Path="self::Amount" ModOpID="LargeOilTankerSteamMotorsBuildCostID" ExposeID="LargeOilTankerSteamMotorsBuildCost" Description="Large Oil Tanker steam motors build cost." Kind="Slider">
+    <SliderDefinition Min="0" Max="500" Stepping="1" />
+  </ImyaExpose>
+  <!-- iMYA - Large Oil Tanker - build cost - aluminium profiles -->
+  <ModOp GUID="2000510004" Type="replace" Path="/Values/Cost/Costs/Item[Ingredient='838']/Amount" ModOpID="LargeOilTankerAluminiumProfilesBuildCostID">
+    <Amount>25</Amount>
+  </ModOp>
+  <ImyaExpose Path="self::Amount" ModOpID="LargeOilTankerAluminiumProfilesBuildCostID" ExposeID="LargeOilTankerAluminiumProfilesBuildCost" Description="Large Oil Tanker steal beam build cost." Kind="Slider">
+    <SliderDefinition Min="0" Max="500" Stepping="1" />
+  </ImyaExpose>
+  <!-- iMYA - Large Oil Tanker - oil capacity -->
+  <ModOp GUID="2000510004" Type="replace" Path="/Values/ItemContainer/StackLimit" ModOpID="LargeOilTankerOilCapacityID">
+    <StackLimit>1200</StackLimit>
+  </ModOp>
+  <ImyaExpose Path="self::StackLimit" ModOpID="LargeOilTankerOilCapacityID" ExposeID="LargeOilTankerOilCapacity" Description="Large Oil Tanker oil capacity." Kind="Slider">
+    <SliderDefinition Min="0" Max="5000" Stepping="25" />
+  </ImyaExpose>
+
+  <!-- iMYA - Small Steam Ship - maintenance cost -->
+  <ModOp GUID="2000510008" Type="replace" Path="/Values/ShipMaintenance/Maintenance" ModOpID="SmallSteamShipMaintenanceID">
+    <Maintenance>150</Maintenance>
+  </ModOp>
+  <ImyaExpose Path="self::Maintenance" ModOpID="SmallSteamShipMaintenanceID" ExposeID="SmallSteamShipMaintenance" Description="Small Steam Ship maintenance cost in credits." Kind="Slider">
+    <SliderDefinition Min="0" Max="2500" Stepping="25" />
+  </ImyaExpose>
+  <!-- iMYA - Small Steam Ship - influence cost -->
+  <ModOp GUID="2000510008" Type="replace" Path="/Values/Cost/InfluenceCostPoints" ModOpID="SmallSteamShipInfluenceCostPointsID">
+    <InfluenceCostPoints>2</InfluenceCostPoints>
+  </ModOp>
+  <ImyaExpose Path="self::InfluenceCostPoints" ModOpID="SmallSteamShipInfluenceCostPointsID" ExposeID="SmallSteamShipInfluenceCostPoints" Description="Small Steam Ship influence point cost." Kind="Slider">
+    <SliderDefinition Min="0" Max="250" Stepping="1" />
+  </ImyaExpose>
+  <!-- iMYA - Small Steam Ship - craft speed -->
+  <ModOp GUID="2000510008" Type="replace" Path="/Values/Craftable/CraftingTime" ModOpID="SmallSteamShipCraftingTimeID">
+    <CraftingTime>360000</CraftingTime>
+  </ModOp>
+  <ImyaExpose Path="self::CraftingTime" ModOpID="SmallSteamShipCraftingTimeID" ExposeID="SmallSteamShipCraftingTime" Description="Small Steam Ship crafting time in ms." Kind="Slider">
+    <SliderDefinition Min="0" Max="2000000" Stepping="15000" />
+  </ImyaExpose>
+  <!-- iMYA - Small Steam Ship - build cost - steel beams -->
+  <ModOp GUID="2000510008" Type="replace" Path="/Values/Cost/Costs/Item[Ingredient='1010218']/Amount" ModOpID="SmallSteamShipSteelBeamsBuildCostID">
+    <Amount>12</Amount>
+  </ModOp>
+  <ImyaExpose Path="self::Amount" ModOpID="SmallSteamShipSteelBeamsBuildCostID" ExposeID="SmallSteamShipSteelBeamsBuildCost" Description="Small Steam Ship steal beam build cost." Kind="Slider">
+    <SliderDefinition Min="0" Max="500" Stepping="1" />
+  </ImyaExpose>
+  <!-- iMYA - Small Steam Ship - build cost - steam motors -->
+  <ModOp GUID="2000510008" Type="replace" Path="/Values/Cost/Costs/Item[Ingredient='1010224']/Amount" ModOpID="SmallSteamShipSteamMotorsBuildCostID">
+    <Amount>10</Amount>
+  </ModOp>
+  <ImyaExpose Path="self::Amount" ModOpID="SmallSteamShipSteamMotorsBuildCostID" ExposeID="SmallSteamShipSteamMotorsBuildCost" Description="Small Steam Ship steam motors build cost." Kind="Slider">
+    <SliderDefinition Min="0" Max="500" Stepping="1" />
+  </ImyaExpose>
+  <!-- iMYA - Small Steam Ship - capacity -->
+  <ModOp GUID="2000510008" Type="replace" Path="/Values/ItemContainer/StackLimit" ModOpID="SmallSteamShipOilCapacityID">
+    <StackLimit>50</StackLimit>
+  </ModOp>
+  <ImyaExpose Path="self::StackLimit" ModOpID="SmallSteamShipOilCapacityID" ExposeID="SmallSteamShipOilCapacity" Description="Small Steam Ship capacity." Kind="Slider">
+    <SliderDefinition Min="0" Max="1000" Stepping="5" />
+  </ImyaExpose>
+  <!-- iMYA - Small Steam Ship - capacity sockets -->
+  <ModOp GUID="2000510008" Type="replace" Path="/Values/ItemContainer/SlotCount" ModOpID="SmallSteamShipSlotCountID">
+    <SlotCount>1</SlotCount>
+  </ModOp>
+  <ImyaExpose Path="self::SlotCount" ModOpID="SmallSteamShipSlotCountID" ExposeID="SmallSteamShipSlotCount" Description="Small Steam Ship capacity sockets." Kind="Slider">
+    <SliderDefinition Min="0" Max="6" Stepping="1" />
+  </ImyaExpose>
+  <!-- iMYA - Small Steam Ship - item sockets -->
+  <ModOp GUID="2000510008" Type="replace" Path="/Values/ItemContainer/SocketCount" ModOpID="SmallSteamShipItemSocketsID">
+    <SocketCount>2</SocketCount>
+  </ModOp>
+  <ImyaExpose Path="self::SocketCount" ModOpID="SmallSteamShipItemSocketsID" ExposeID="SmallSteamShipItemSockets" Description="Small Steam Ship item sockets." Kind="Slider">
+    <SliderDefinition Min="0" Max="6" Stepping="1" />
+  </ImyaExpose>
+</ModOps>

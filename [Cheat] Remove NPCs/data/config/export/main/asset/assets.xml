@@ -1,0 +1,578 @@
+<ModOps>
+    <!-- iMYA - Title -->
+    <ImyaTweaks Title="Remove NPCs - Pirate Ships on a running game" Description="It is recommended to only load the mod once to remove NPCs from your Savegame." />
+
+    <!-- Remove Bente Jorgensen -->
+    <ModOp GUID="130248" Type="AddNextSibling" ModOpID="RemoveBenteJorgensen">
+        <Asset>
+            <Template>Trigger</Template>
+            <Values>
+                <Standard>
+                    <GUID>2000510010</GUID>
+                    <Name>Remove Bente Jorgensen</Name>
+                </Standard>
+                <Trigger>
+                    <TriggerCondition>
+                        <IsBaseAutoCreateAsset>1</IsBaseAutoCreateAsset>
+                        <Values>
+                            <Condition />
+                            <ConditionAlwaysTrue />
+                        </Values>
+                    </TriggerCondition>
+                    <TriggerActions>
+                        <Item>
+                            <TriggerAction>
+                                <Template>ActionDeleteObjects</Template>
+                                <Values>
+                                    <Action />
+                                    <ActionDeleteObjects />
+                                    <ObjectFilter>
+                                        <ObjectGUID>700000</ObjectGUID>
+                                        <CheckParticipantID>1</CheckParticipantID>
+                                        <ObjectParticipantID>Second_ai_01_Jorgensen</ObjectParticipantID>
+                                    </ObjectFilter>
+                                </Values>
+                            </TriggerAction>
+                        </Item>
+                    </TriggerActions>
+                    <TriggerSetup>
+                        <AutoRegisterTrigger>1</AutoRegisterTrigger>
+                        <UsedBySecondParties>0</UsedBySecondParties>
+                    </TriggerSetup>
+                </Trigger>
+            </Values>
+        </Asset>
+    </ModOp>
+    <!-- Remove Princess Qing -->
+    <ModOp GUID="130248" Type="AddNextSibling" ModOpID="RemovePrincessQing">
+        <Asset>
+            <Template>Trigger</Template>
+            <Values>
+                <Standard>
+                    <GUID>2000510011</GUID>
+                    <Name>Remove Princess Qing</Name>
+                </Standard>
+                <Trigger>
+                    <TriggerCondition>
+                        <IsBaseAutoCreateAsset>1</IsBaseAutoCreateAsset>
+                        <Values>
+                            <Condition />
+                            <ConditionAlwaysTrue />
+                        </Values>
+                    </TriggerCondition>
+                    <TriggerActions>
+                        <Item>
+                            <TriggerAction>
+                                <Template>ActionDeleteObjects</Template>
+                                <Values>
+                                    <Action />
+                                    <ActionDeleteObjects />
+                                    <ObjectFilter>
+                                        <ObjectGUID>700000</ObjectGUID>
+                                        <CheckParticipantID>1</CheckParticipantID>
+                                        <ObjectParticipantID>Second_ai_02_Qing</ObjectParticipantID>
+                                    </ObjectFilter>
+                                </Values>
+                            </TriggerAction>
+                        </Item>
+                    </TriggerActions>
+                    <TriggerSetup>
+                        <AutoRegisterTrigger>1</AutoRegisterTrigger>
+                        <UsedBySecondParties>0</UsedBySecondParties>
+                    </TriggerSetup>
+                </Trigger>
+            </Values>
+        </Asset>
+    </ModOp>
+    <!-- Remove Willie Wibblesock -->
+    <ModOp GUID="130248" Type="AddNextSibling" ModOpID="RemoveWillieWibblesock">
+        <Asset>
+            <Template>Trigger</Template>
+            <Values>
+                <Standard>
+                    <GUID>2000510012</GUID>
+                    <Name>Remove Willie Wibblesock</Name>
+                </Standard>
+                <Trigger>
+                    <TriggerCondition>
+                        <IsBaseAutoCreateAsset>1</IsBaseAutoCreateAsset>
+                        <Values>
+                            <Condition />
+                            <ConditionAlwaysTrue />
+                        </Values>
+                    </TriggerCondition>
+                    <TriggerActions>
+                        <Item>
+                            <TriggerAction>
+                                <Template>ActionDeleteObjects</Template>
+                                <Values>
+                                    <Action />
+                                    <ActionDeleteObjects />
+                                    <ObjectFilter>
+                                        <ObjectGUID>700000</ObjectGUID>
+                                        <CheckParticipantID>1</CheckParticipantID>
+                                        <ObjectParticipantID>Second_ai_03_Wibblesock</ObjectParticipantID>
+                                    </ObjectFilter>
+                                </Values>
+                            </TriggerAction>
+                        </Item>
+                    </TriggerActions>
+                    <TriggerSetup>
+                        <AutoRegisterTrigger>1</AutoRegisterTrigger>
+                        <UsedBySecondParties>0</UsedBySecondParties>
+                    </TriggerSetup>
+                </Trigger>
+            </Values>
+        </Asset>
+    </ModOp>
+    <!-- Remove George Smith -->
+    <ModOp GUID="130248" Type="AddNextSibling" ModOpID="RemoveGeorgeSmith">
+        <Asset>
+            <Template>Trigger</Template>
+            <Values>
+                <Standard>
+                    <GUID>2000510013</GUID>
+                    <Name>Remove George Smith</Name>
+                </Standard>
+                <Trigger>
+                    <TriggerCondition>
+                        <IsBaseAutoCreateAsset>1</IsBaseAutoCreateAsset>
+                        <Values>
+                            <Condition />
+                            <ConditionAlwaysTrue />
+                        </Values>
+                    </TriggerCondition>
+                    <TriggerActions>
+                        <Item>
+                            <TriggerAction>
+                                <Template>ActionDeleteObjects</Template>
+                                <Values>
+                                    <Action />
+                                    <ActionDeleteObjects />
+                                    <ObjectFilter>
+                                        <ObjectGUID>700000</ObjectGUID>
+                                        <CheckParticipantID>1</CheckParticipantID>
+                                        <ObjectParticipantID>Second_ai_04_Smith</ObjectParticipantID>
+                                    </ObjectFilter>
+                                </Values>
+                            </TriggerAction>
+                        </Item>
+                    </TriggerActions>
+                    <TriggerSetup>
+                        <AutoRegisterTrigger>1</AutoRegisterTrigger>
+                        <UsedBySecondParties>0</UsedBySecondParties>
+                    </TriggerSetup>
+                </Trigger>
+            </Values>
+        </Asset>
+    </ModOp>
+    <!-- Remove Beryl O'Mara -->
+    <ModOp GUID="130248" Type="AddNextSibling" ModOpID="RemoveBerylOMara">
+        <Asset>
+            <Template>Trigger</Template>
+            <Values>
+                <Standard>
+                    <GUID>2000510014</GUID>
+                    <Name>Remove Beryl O'Mara</Name>
+                </Standard>
+                <Trigger>
+                    <TriggerCondition>
+                        <IsBaseAutoCreateAsset>1</IsBaseAutoCreateAsset>
+                        <Values>
+                            <Condition />
+                            <ConditionAlwaysTrue />
+                        </Values>
+                    </TriggerCondition>
+                    <TriggerActions>
+                        <Item>
+                            <TriggerAction>
+                                <Template>ActionDeleteObjects</Template>
+                                <Values>
+                                    <Action />
+                                    <ActionDeleteObjects />
+                                    <ObjectFilter>
+                                        <ObjectGUID>700000</ObjectGUID>
+                                        <CheckParticipantID>1</CheckParticipantID>
+                                        <ObjectParticipantID>Second_ai_05_OMara</ObjectParticipantID>
+                                    </ObjectFilter>
+                                </Values>
+                            </TriggerAction>
+                        </Item>
+                    </TriggerActions>
+                    <TriggerSetup>
+                        <AutoRegisterTrigger>1</AutoRegisterTrigger>
+                        <UsedBySecondParties>0</UsedBySecondParties>
+                    </TriggerSetup>
+                </Trigger>
+            </Values>
+        </Asset>
+    </ModOp>
+    <!-- Remove Artur Gasparov -->
+    <ModOp GUID="130248" Type="AddNextSibling" ModOpID="RemoveArturGasparov">
+        <Asset>
+            <Template>Trigger</Template>
+            <Values>
+                <Standard>
+                    <GUID>2000510015</GUID>
+                    <Name>Remove Artur Gasparov</Name>
+                </Standard>
+                <Trigger>
+                    <TriggerCondition>
+                        <IsBaseAutoCreateAsset>1</IsBaseAutoCreateAsset>
+                        <Values>
+                            <Condition />
+                            <ConditionAlwaysTrue />
+                        </Values>
+                    </TriggerCondition>
+                    <TriggerActions>
+                        <Item>
+                            <TriggerAction>
+                                <Template>ActionDeleteObjects</Template>
+                                <Values>
+                                    <Action />
+                                    <ActionDeleteObjects />
+                                    <ObjectFilter>
+                                        <ObjectGUID>700000</ObjectGUID>
+                                        <CheckParticipantID>1</CheckParticipantID>
+                                        <ObjectParticipantID>Second_ai_06_Gasparov</ObjectParticipantID>
+                                    </ObjectFilter>
+                                </Values>
+                            </TriggerAction>
+                        </Item>
+                    </TriggerActions>
+                    <TriggerSetup>
+                        <AutoRegisterTrigger>1</AutoRegisterTrigger>
+                        <UsedBySecondParties>0</UsedBySecondParties>
+                    </TriggerSetup>
+                </Trigger>
+            </Values>
+        </Asset>
+    </ModOp>
+    <!-- Remove Carl Leonard von Malching -->
+    <ModOp GUID="130248" Type="AddNextSibling" ModOpID="RemoveCarlLeonardvonMalching">
+        <Asset>
+            <Template>Trigger</Template>
+            <Values>
+                <Standard>
+                    <GUID>2000510016</GUID>
+                    <Name>Remove Carl Leonard von Malching</Name>
+                </Standard>
+                <Trigger>
+                    <TriggerCondition>
+                        <IsBaseAutoCreateAsset>1</IsBaseAutoCreateAsset>
+                        <Values>
+                            <Condition />
+                            <ConditionAlwaysTrue />
+                        </Values>
+                    </TriggerCondition>
+                    <TriggerActions>
+                        <Item>
+                            <TriggerAction>
+                                <Template>ActionDeleteObjects</Template>
+                                <Values>
+                                    <Action />
+                                    <ActionDeleteObjects />
+                                    <ObjectFilter>
+                                        <ObjectGUID>700000</ObjectGUID>
+                                        <CheckParticipantID>1</CheckParticipantID>
+                                        <ObjectParticipantID>Second_ai_07_von_Malching</ObjectParticipantID>
+                                    </ObjectFilter>
+                                </Values>
+                            </TriggerAction>
+                        </Item>
+                    </TriggerActions>
+                    <TriggerSetup>
+                        <AutoRegisterTrigger>1</AutoRegisterTrigger>
+                        <UsedBySecondParties>0</UsedBySecondParties>
+                    </TriggerSetup>
+                </Trigger>
+            </Values>
+        </Asset>
+    </ModOp>
+    <!-- Remove Alonso Graves -->
+    <ModOp GUID="130248" Type="AddNextSibling" ModOpID="RemoveAlonsoGraves">
+        <Asset>
+            <Template>Trigger</Template>
+            <Values>
+                <Standard>
+                    <GUID>2000510017</GUID>
+                    <Name>Remove Alonso Graves</Name>
+                </Standard>
+                <Trigger>
+                    <TriggerCondition>
+                        <IsBaseAutoCreateAsset>1</IsBaseAutoCreateAsset>
+                        <Values>
+                            <Condition />
+                            <ConditionAlwaysTrue />
+                        </Values>
+                    </TriggerCondition>
+                    <TriggerActions>
+                        <Item>
+                            <TriggerAction>
+                                <Template>ActionDeleteObjects</Template>
+                                <Values>
+                                    <Action />
+                                    <ActionDeleteObjects />
+                                    <ObjectFilter>
+                                        <ObjectGUID>700000</ObjectGUID>
+                                        <CheckParticipantID>1</CheckParticipantID>
+                                        <ObjectParticipantID>Second_ai_08_Gravez</ObjectParticipantID>
+                                    </ObjectFilter>
+                                </Values>
+                            </TriggerAction>
+                        </Item>
+                    </TriggerActions>
+                    <TriggerSetup>
+                        <AutoRegisterTrigger>1</AutoRegisterTrigger>
+                        <UsedBySecondParties>0</UsedBySecondParties>
+                    </TriggerSetup>
+                </Trigger>
+            </Values>
+        </Asset>
+    </ModOp>
+    <!-- Remove Admiral Vicente Silva -->
+    <ModOp GUID="130248" Type="AddNextSibling" ModOpID="RemoveAdmiralVicenteSilva">
+        <Asset>
+            <Template>Trigger</Template>
+            <Values>
+                <Standard>
+                    <GUID>2000510018</GUID>
+                    <Name>Remove Admiral Vicente Silva</Name>
+                </Standard>
+                <Trigger>
+                    <TriggerCondition>
+                        <IsBaseAutoCreateAsset>1</IsBaseAutoCreateAsset>
+                        <Values>
+                            <Condition />
+                            <ConditionAlwaysTrue />
+                        </Values>
+                    </TriggerCondition>
+                    <TriggerActions>
+                        <Item>
+                            <TriggerAction>
+                                <Template>ActionDeleteObjects</Template>
+                                <Values>
+                                    <Action />
+                                    <ActionDeleteObjects />
+                                    <ObjectFilter>
+                                        <ObjectGUID>700000</ObjectGUID>
+                                        <CheckParticipantID>1</CheckParticipantID>
+                                        <ObjectParticipantID>Second_ai_09_Silva</ObjectParticipantID>
+                                    </ObjectFilter>
+                                </Values>
+                            </TriggerAction>
+                        </Item>
+                    </TriggerActions>
+                    <TriggerSetup>
+                        <AutoRegisterTrigger>1</AutoRegisterTrigger>
+                        <UsedBySecondParties>0</UsedBySecondParties>
+                    </TriggerSetup>
+                </Trigger>
+            </Values>
+        </Asset>
+    </ModOp>
+    <!-- Remove Lady Margaret Hunt -->
+    <ModOp GUID="130248" Type="AddNextSibling" ModOpID="RemoveLadyMargaretHunt">
+        <Asset>
+            <Template>Trigger</Template>
+            <Values>
+                <Standard>
+                    <GUID>2000510019</GUID>
+                    <Name>Remove Lady Margaret Hunt</Name>
+                </Standard>
+                <Trigger>
+                    <TriggerCondition>
+                        <IsBaseAutoCreateAsset>1</IsBaseAutoCreateAsset>
+                        <Values>
+                            <Condition />
+                            <ConditionAlwaysTrue />
+                        </Values>
+                    </TriggerCondition>
+                    <TriggerActions>
+                        <Item>
+                            <TriggerAction>
+                                <Template>ActionDeleteObjects</Template>
+                                <Values>
+                                    <Action />
+                                    <ActionDeleteObjects />
+                                    <ObjectFilter>
+                                        <ObjectGUID>700000</ObjectGUID>
+                                        <CheckParticipantID>1</CheckParticipantID>
+                                        <ObjectParticipantID>Second_ai_10_Hunt</ObjectParticipantID>
+                                    </ObjectFilter>
+                                </Values>
+                            </TriggerAction>
+                        </Item>
+                    </TriggerActions>
+                    <TriggerSetup>
+                        <AutoRegisterTrigger>1</AutoRegisterTrigger>
+                        <UsedBySecondParties>0</UsedBySecondParties>
+                    </TriggerSetup>
+                </Trigger>
+            </Values>
+        </Asset>
+    </ModOp>
+    <!-- Remove Dr. Hugo Mercier -->
+    <ModOp GUID="130248" Type="AddNextSibling" ModOpID="RemoveDrHugoMercier">
+        <Asset>
+            <Template>Trigger</Template>
+            <Values>
+                <Standard>
+                    <GUID>2000510020</GUID>
+                    <Name>Remove Dr. Hugo Mercier</Name>
+                </Standard>
+                <Trigger>
+                    <TriggerCondition>
+                        <IsBaseAutoCreateAsset>1</IsBaseAutoCreateAsset>
+                        <Values>
+                            <Condition />
+                            <ConditionAlwaysTrue />
+                        </Values>
+                    </TriggerCondition>
+                    <TriggerActions>
+                        <Item>
+                            <TriggerAction>
+                                <Template>ActionDeleteObjects</Template>
+                                <Values>
+                                    <Action />
+                                    <ActionDeleteObjects />
+                                    <ObjectFilter>
+                                        <ObjectGUID>700000</ObjectGUID>
+                                        <CheckParticipantID>1</CheckParticipantID>
+                                        <ObjectParticipantID>Second_ai_11_Mercier</ObjectParticipantID>
+                                    </ObjectFilter>
+                                </Values>
+                            </TriggerAction>
+                        </Item>
+                    </TriggerActions>
+                    <TriggerSetup>
+                        <AutoRegisterTrigger>1</AutoRegisterTrigger>
+                        <UsedBySecondParties>0</UsedBySecondParties>
+                    </TriggerSetup>
+                </Trigger>
+            </Values>
+        </Asset>
+    </ModOp>
+    <!-- Destroy all Pirate Ships from Jean La Fortune -->
+    <ModOp GUID="130248" Type="AddNextSibling" ModOpID="DestroyJeanLaFortuneShips">
+        <Asset>
+            <Template>Trigger</Template>
+            <Values>
+                <Standard>
+                    <GUID>2000510021</GUID>
+                    <Name>Destroy all Pirate Ships from Jean La Fortune</Name>
+                </Standard>
+                <Trigger>
+                    <TriggerCondition>
+                        <IsBaseAutoCreateAsset>1</IsBaseAutoCreateAsset>
+                        <Values>
+                            <Condition />
+                            <ConditionAlwaysTrue />
+                        </Values>
+                    </TriggerCondition>
+                    <TriggerActions>
+                        <Item>
+                            <TriggerAction>
+                                <Template>ActionDeleteObjects</Template>
+                                <Values>
+                                    <Action />
+                                    <ActionDeleteObjects />
+                                    <ObjectFilter>
+                                        <ObjectGUID>700138</ObjectGUID>
+                                        <CheckParticipantID>1</CheckParticipantID>
+                                        <ObjectParticipantID>Third_party_04_Pirate_LaFortune</ObjectParticipantID>
+                                    </ObjectFilter>
+                                </Values>
+                            </TriggerAction>
+                        </Item>
+                    </TriggerActions>
+                    <TriggerSetup>
+                        <AutoRegisterTrigger>1</AutoRegisterTrigger>
+                        <UsedBySecondParties>0</UsedBySecondParties>
+                    </TriggerSetup>
+                </Trigger>
+            </Values>
+        </Asset>
+    </ModOp>
+    <!-- Destroy all Pirate Ships from Anne Harlow -->
+    <ModOp GUID="130248" Type="AddNextSibling" ModOpID="DestroyAnneHarlowShips">
+        <Asset>
+            <Template>Trigger</Template>
+            <Values>
+                <Standard>
+                    <GUID>2000510022</GUID>
+                    <Name>Destroy all Pirate Ships from Anne Harlow</Name>
+                </Standard>
+                <Trigger>
+                    <TriggerCondition>
+                        <IsBaseAutoCreateAsset>1</IsBaseAutoCreateAsset>
+                        <Values>
+                            <Condition />
+                            <ConditionAlwaysTrue />
+                        </Values>
+                    </TriggerCondition>
+                    <TriggerActions>
+                        <Item>
+                            <TriggerAction>
+                                <Template>ActionDeleteObjects</Template>
+                                <Values>
+                                    <Action />
+                                    <ActionDeleteObjects />
+                                    <ObjectFilter>
+                                        <ObjectGUID>700138</ObjectGUID>
+                                        <CheckParticipantID>1</CheckParticipantID>
+                                        <ObjectParticipantID>Third_party_03_Pirate_Harlow</ObjectParticipantID>
+                                    </ObjectFilter>
+                                </Values>
+                            </TriggerAction>
+                        </Item>
+                    </TriggerActions>
+                    <TriggerSetup>
+                        <AutoRegisterTrigger>1</AutoRegisterTrigger>
+                        <UsedBySecondParties>0</UsedBySecondParties>
+                    </TriggerSetup>
+                </Trigger>
+            </Values>
+        </Asset>
+    </ModOp>
+
+    <!-- iMYA - Remove Bente Jorgensen -->
+    <ImyaExpose Path="*" ModOpID="RemoveBenteJorgensen" Kind="SkipToggle" InitState="True" ExposeID="Remove/Keep Bente Jorgensen" Description="Toggle on to remove Bente Jorgensen. Off to keep Bente Jorgensen.">
+    </ImyaExpose>
+    <!-- iMYA - Remove Princess Qing -->
+    <ImyaExpose Path="*" ModOpID="RemovePrincessQing" Kind="SkipToggle" InitState="True" ExposeID="Remove/Keep Princess Qing" Description="Toggle on to remove Princess Qing. Off to keep Princess Qing.">
+    </ImyaExpose>
+    <!-- iMYA - Remove Willie Wibblesock -->
+    <ImyaExpose Path="*" ModOpID="RemoveWillieWibblesock" Kind="SkipToggle" InitState="True" ExposeID="Remove/Keep Willie Wibblesock" Description="Toggle on to remove Willie Wibblesock. Off to keep Willie Wibblesock.">
+    </ImyaExpose>
+    <!-- iMYA - Remove George Smith -->
+    <ImyaExpose Path="*" ModOpID="RemoveGeorgeSmith" Kind="SkipToggle" InitState="True" ExposeID="Remove/Keep George Smith" Description="Toggle on to remove George Smith. Off to keep George Smith.">
+    </ImyaExpose>
+    <!-- iMYA - Remove Beryl O'Mara -->
+    <ImyaExpose Path="*" ModOpID="RemoveBerylOMara" Kind="SkipToggle" InitState="True" ExposeID="Remove/Keep Beryl O'Mara" Description="Toggle on to remove Beryl O'Mara. Off to keep Beryl O'Mara.">
+    </ImyaExpose>
+    <!-- iMYA - Remove Artur Gasparov -->
+    <ImyaExpose Path="*" ModOpID="RemoveArturGasparov" Kind="SkipToggle" InitState="True" ExposeID="Remove/Keep Artur Gasparov" Description="Toggle on to remove Artur Gasparov. Off to keep Artur Gasparov.">
+    </ImyaExpose>
+    <!-- iMYA - Remove Carl Leonard von Malching -->
+    <ImyaExpose Path="*" ModOpID="RemoveCarlLeonardvonMalching" Kind="SkipToggle" InitState="True" ExposeID="Remove/Keep Carl Leonard von Malching" Description="Toggle on to remove Carl Leonard von Malching. Off to keep Carl Leonard von Malching.">
+    </ImyaExpose>
+    <!-- iMYA - Remove Alonso Graves -->
+    <ImyaExpose Path="*" ModOpID="RemoveAlonsoGraves" Kind="SkipToggle" InitState="True" ExposeID="Remove/Keep Alonso Graves" Description="Toggle on to remove Alonso Graves. Off to keep Alonso Graves.">
+    </ImyaExpose>
+    <!-- iMYA - Remove Admiral Vicente Silva -->
+    <ImyaExpose Path="*" ModOpID="RemoveAdmiralVicenteSilva" Kind="SkipToggle" InitState="True" ExposeID="Remove/Keep Admiral Vicente Silva" Description="Toggle on to remove Admiral Vicente Silva. Off to keep Admiral Vicente Silva.">
+    </ImyaExpose>
+    <!-- iMYA - Remove Lady Margaret Hunt-->
+    <ImyaExpose Path="*" ModOpID="RemoveLadyMargaretHunt" Kind="SkipToggle" InitState="True" ExposeID="Remove/Keep Lady Margaret Hunt" Description="Toggle on to remove Lady Margaret Hunt. Off to keep Lady Margaret Hunt.">
+    </ImyaExpose>
+    <!-- iMYA - Remove Dr. Hugo Mercier  -->
+    <ImyaExpose Path="*" ModOpID="RemoveDrHugoMercier" Kind="SkipToggle" InitState="True" ExposeID="Remove/Keep Dr. Hugo Mercier" Description="Toggle on to remove Dr. Hugo Mercier . Off to keep Dr. Hugo Mercier .">
+    </ImyaExpose>
+    <!-- iMYA - Destroy all Pirate Ships from Jean La Fortune -->
+    <ImyaExpose Path="*" ModOpID="DestroyJeanLaFortuneShips" Kind="SkipToggle" InitState="False" ExposeID="Destroy/Keep all Ships from Jean La Fortune" Description="Toggle on to destroy all Ships from Jean La Fortune. Off to keep all Ships from Jean La Fortune.">
+    </ImyaExpose>
+    <!-- iMYA - Destroy all Pirate Ships from Anne Harlow -->
+    <ImyaExpose Path="*" ModOpID="DestroyAnneHarlowShips" Kind="SkipToggle" InitState="False" ExposeID="Destroy/Keep all Ships from Anne Harlow" Description="Toggle on to destroy all Ships from Anne Harlow. Off to keep all Ships from Anne Harlow.">
+    </ImyaExpose>
+</ModOps>

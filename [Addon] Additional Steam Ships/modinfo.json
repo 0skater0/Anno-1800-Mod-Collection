@@ -1,0 +1,45 @@
+{
+  "Version": "1.0.0",
+  "ModID": "0skater0_AdditionalSteamShips",
+  "Category": {
+    "Chinese": "Addon",
+    "English": "Addon",
+    "French": "Addon",
+    "German": "Addon",
+    "Italian": "Addon",
+    "Japanese": "Addon",
+    "Korean": "Addon",
+    "Polish": "Addon",
+    "Russian": "Addon",
+    "Spanish": "Addon",
+    "Taiwanese": "Addon"
+  },
+  "ModName": {
+    "Chinese": "Additional Steam Ships",
+    "English": "Additional Steam Ships",
+    "French": "Additional Steam Ships",
+    "German": "Additional Steam Ships",
+    "Italian": "Additional Steam Ships",
+    "Japanese": "Additional Steam Ships",
+    "Korean": "Additional Steam Ships",
+    "Polish": "Additional Steam Ships",
+    "Russian": "Additional Steam Ships",
+    "Spanish": "Additional Steam Ships",
+    "Taiwanese": "Additional Steam Ships"
+  },
+  "Description": {
+    "Chinese": "file::README.md",
+    "English": "file::README.md",
+    "French": "file::README.md",
+    "German": "file::README.md",
+    "Italian": "file::README.md",
+    "Japanese": "file::README.md",
+    "Korean": "file::README.md",
+    "Polish": "file::README.md",
+    "Russian": "file::README.md",
+    "Spanish": "file::README.md",
+    "Taiwanese": "file::README.md"
+  },
+  "CreatorName": "0skater0",
+  "CreatorContact": "https://github.com/0skater0/Anno-1800-Mod-Collection"
+}
