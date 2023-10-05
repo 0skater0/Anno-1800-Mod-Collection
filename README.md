@@ -6,7 +6,6 @@ For a list of my GUID range and all the GUIDs I've used, click [here](https://gi
 ## How to use my Mods
 
 - Subscribe at [Mod.io](https://mod.io/g/anno-1800/u/0skater0)
-- Download and install using [iModYourAnno mod manager](https://github.com/anno-mods/iModYourAnno/releases)
 - Install manually with downloads from [Mod.io](https://mod.io/g/anno-1800/u/0skater0) or [GitHub releases](https://github.com/0skater0/Anno-1800-Mod-Collection/releases) or [Nexus Mods](https://www.nexusmods.com/anno1800/users/150057403?tab=user+files).
 
 ## Mods
