@@ -1,0 +1,27 @@
+<ModOps>
+    <ModOp Type="add" Path="/TextExport/Texts">
+        <!-- Default Oil Tanker -->
+        <Text>
+            <GUID>100853</GUID>
+            <Text>Small Oil Tanker</Text>
+        </Text>
+        <!-- Medium Oil Tanker -->
+        <Text>
+            <GUID>2000510000</GUID>
+            <Text>Leviathan</Text>
+        </Text>
+        <Text>
+            <GUID>2000510001</GUID>
+            <Text>Majestic in its stature, the Leviathan is crafted for efficient oil transport.</Text>
+        </Text>
+        <!-- Large Oil Tanker -->
+        <Text>
+            <GUID>2000510004</GUID>
+            <Text>Triton</Text>
+        </Text>
+        <Text>
+            <GUID>2000510005</GUID>
+            <Text>The Triton embodies cutting-edge engineering. With its vast cargo capacity, it sets standards, while it excels with unbeatable speed specifically in the open seas.</Text>
+        </Text>
+    </ModOp>
+</ModOps>
