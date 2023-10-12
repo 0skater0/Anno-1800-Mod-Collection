@@ -1,14 +1,12 @@
 ![Banner](banner.jpg)
 
 ### EN - Englisch
-Adds a few new ships to the steam shipyard.
-- **Small Steam Ship:** New Steam Ship which can hold little amount of cargo but is fast.
+Adds a two new ships to the steam shipyard.
 - **Medium Oil Tanker:** New Oil Tanker which can more oil than the standard oil tanker but is faster.
 - **Large Oil Tanker:** New Oil Tanker which can hold large amounts of oil.
 
 ### DE - Deutsch 
-Fügt der Dampfwerft einige neue Schiffe hinzu.
-- **Kleines Dampfschiff:** Neues Dampfschiff, das wenig Fracht aufnehmen kann, aber schnell ist.
+Fügt der Dampfwerft zwei neue Schiffe hinzu.
 - **Mittlerer Öltanker:** Neuer Öltanker, der mehr Öl fassen kann als der Standard-Öltanker, aber schneller ist.
 - **Großer Öltanker:** Neuer Öltanker, der große Mengen Öl aufnehmen kann.
 
