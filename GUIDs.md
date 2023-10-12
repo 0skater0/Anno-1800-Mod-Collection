@@ -14,8 +14,6 @@
 |                       | InfoDescription         | 2000510005 |
 |                       | Unlock Trigger          | 2000510006 |
 |                       | Creative Unlock Trigger | 2000510007 |
-| **Small Steam Ship**  | -                       | 2000510008 |
-|                       | InfoDescription         | 2000510009 |
 
 ## [Cheat] Remove NPCs
 | Element                                       |       GUID |
@@ -35,9 +33,9 @@
 | Destroy all Pirate Ships from Anne Harlow     | 2000510022 |
 
 ## [Building] Huge Oil Depot (Water)
-| Element                       | Description             |    GUID    |
-| :---------------------------- | :---------------------- | :--------: |
-| **Huge Oil Depot (water) OW** | -                       | 2000510023 |
-|                               | InfoDescription         | 2000510024 |
-| **Huge Oil Depot (water) NW** | -                       | 2000510025 |
-|                               | InfoDescription         | 2000510026 |
+| Element                       | Description     |    GUID    |
+| :---------------------------- | :-------------- | :--------: |
+| **Huge Oil Depot (water) OW** | -               | 2000510023 |
+|                               | InfoDescription | 2000510024 |
+| **Huge Oil Depot (water) NW** | -               | 2000510025 |
+|                               | InfoDescription | 2000510026 |
