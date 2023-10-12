@@ -355,7 +355,7 @@
             <CargoFullFactor>0.8</CargoFullFactor>
             <MinSlowdownFactor>0.5</MinSlowdownFactor>
             <CurveSegmentDensity>High</CurveSegmentDensity>
-            <SessionTransferSpeedFactor>1.7</SessionTransferSpeedFactor>
+            <SessionTransferSpeedFactor>0.8</SessionTransferSpeedFactor>
           </Walking>
           <Text>
             <LocaText>
@@ -618,8 +618,8 @@
   </ModOp>
   <!-- Oil Traderoute -->
   <ModOp Type="merge" GUID="140011" Path="/Values/TradeRouteFeature/TransportationTypes/Oil">
-    <MaxGoodTransferAmount>1000</MaxGoodTransferAmount>
-    <DefaultGoodTransferAmount>1000</DefaultGoodTransferAmount>
+    <MaxGoodTransferAmount>1200</MaxGoodTransferAmount>
+    <DefaultGoodTransferAmount>1200</DefaultGoodTransferAmount>
   </ModOp>
   <!-- iMYA - Medium Oil Tanker - maintenance cost -->
   <ModOp GUID="2000510000" Type="replace" Path="/Values/ShipMaintenance/Maintenance" ModOpID="MediumOilTankerMaintenanceID">
@@ -670,6 +670,92 @@
   <ImyaExpose Path="self::StackLimit" ModOpID="MediumOilTankerOilCapacityID" ExposeID="MediumOilTankerOilCapacity" Description="Medium Oil Tanker oil capacity." Kind="Slider">
     <SliderDefinition Min="0" Max="5000" Stepping="25" />
   </ImyaExpose>
+  <!-- iMYA - Medium Oil Tanker - travel between zones speed -->
+  <ModOp GUID="2000510000" Type="replace" Path="/Values/Walking/SessionTransferSpeedFactor" ModOpID="MediumOilTankerBetweenZonesSpeedID">
+    <SessionTransferSpeedFactor>1.2</SessionTransferSpeedFactor>
+  </ModOp>
+  <ImyaExpose Path="self::SessionTransferSpeedFactor" ModOpID="MediumOilTankerBetweenZonesSpeedID" ExposeID="MediumOilTankerBetweenZonesSpeed" Description="Medium Oil Tanker travel between zones speed. 1 = 100%, 1.5 = 150%, 2 = 200%, ..." Kind="Enum">
+    <FixedValues>
+      <Value>0.1</Value>
+      <Value>0.2</Value>
+      <Value>0.3</Value>
+      <Value>0.4</Value>
+      <Value>0.5</Value>
+      <Value>0.6</Value>
+      <Value>0.7</Value>
+      <Value>0.8</Value>
+      <Value>0.9</Value>
+      <Value>1.0</Value>
+      <Value>1.1</Value>
+      <Value>1.2</Value>
+      <Value>1.3</Value>
+      <Value>1.4</Value>
+      <Value>1.5</Value>
+      <Value>1.6</Value>
+      <Value>1.7</Value>
+      <Value>1.8</Value>
+      <Value>1.9</Value>
+      <Value>2.0</Value>
+      <Value>2.1</Value>
+      <Value>2.2</Value>
+      <Value>2.3</Value>
+      <Value>2.4</Value>
+      <Value>2.5</Value>
+      <Value>2.6</Value>
+      <Value>2.7</Value>
+      <Value>2.8</Value>
+      <Value>2.9</Value>
+      <Value>3.0</Value>
+      <Value>3.1</Value>
+      <Value>3.2</Value>
+      <Value>3.3</Value>
+      <Value>3.4</Value>
+      <Value>3.5</Value>
+    </FixedValues>
+  </ImyaExpose>
+  <!-- iMYA - Medium Oil Tanker - loading speed -->
+  <ModOp GUID="2000510000" Type="replace" Path="/Values/TradeRouteVehicle/LoadingSpeedFactor" ModOpID="MediumOilTankerLoadingSpeedID">
+    <LoadingSpeedFactor>1.2</LoadingSpeedFactor>
+  </ModOp>
+  <ImyaExpose Path="self::LoadingSpeedFactor" ModOpID="MediumOilTankerLoadingSpeedID" ExposeID="MediumOilTankerLoadingSpeed" Description="Medium Oil Tanker loading speed. 1 = 100%, 1.5 = 150%, 2 = 200%, ..." Kind="Enum">
+    <FixedValues>
+      <Value>0.1</Value>
+      <Value>0.2</Value>
+      <Value>0.3</Value>
+      <Value>0.4</Value>
+      <Value>0.5</Value>
+      <Value>0.6</Value>
+      <Value>0.7</Value>
+      <Value>0.8</Value>
+      <Value>0.9</Value>
+      <Value>1.0</Value>
+      <Value>1.1</Value>
+      <Value>1.2</Value>
+      <Value>1.3</Value>
+      <Value>1.4</Value>
+      <Value>1.5</Value>
+      <Value>1.6</Value>
+      <Value>1.7</Value>
+      <Value>1.8</Value>
+      <Value>1.9</Value>
+      <Value>2.0</Value>
+      <Value>2.1</Value>
+      <Value>2.2</Value>
+      <Value>2.3</Value>
+      <Value>2.4</Value>
+      <Value>2.5</Value>
+      <Value>2.6</Value>
+      <Value>2.7</Value>
+      <Value>2.8</Value>
+      <Value>2.9</Value>
+      <Value>3.0</Value>
+      <Value>3.1</Value>
+      <Value>3.2</Value>
+      <Value>3.3</Value>
+      <Value>3.4</Value>
+      <Value>3.5</Value>
+    </FixedValues>
+  </ImyaExpose>
 
   <!-- iMYA - Large Oil Tanker - maintenance cost -->
   <ModOp GUID="2000510004" Type="replace" Path="/Values/ShipMaintenance/Maintenance" ModOpID="LargeOilTankerMaintenanceID">
@@ -719,5 +805,91 @@
   </ModOp>
   <ImyaExpose Path="self::StackLimit" ModOpID="LargeOilTankerOilCapacityID" ExposeID="LargeOilTankerOilCapacity" Description="Large Oil Tanker oil capacity." Kind="Slider">
     <SliderDefinition Min="0" Max="5000" Stepping="25" />
+  </ImyaExpose>
+  <!-- iMYA - Large Oil Tanker - travel between zones speed -->
+  <ModOp GUID="2000510004" Type="replace" Path="/Values/Walking/SessionTransferSpeedFactor" ModOpID="LargeOilTankerBetweenZonesSpeedID">
+    <SessionTransferSpeedFactor>0.8</SessionTransferSpeedFactor>
+  </ModOp>
+  <ImyaExpose Path="self::SessionTransferSpeedFactor" ModOpID="LargeOilTankerBetweenZonesSpeedID" ExposeID="LargeOilTankerBetweenZonesSpeed" Description="Large Oil Tanker travel between zones speed. 1 = 100%, 1.5 = 150%, 2 = 200%, ..." Kind="Enum">
+    <FixedValues>
+      <Value>0.1</Value>
+      <Value>0.2</Value>
+      <Value>0.3</Value>
+      <Value>0.4</Value>
+      <Value>0.5</Value>
+      <Value>0.6</Value>
+      <Value>0.7</Value>
+      <Value>0.8</Value>
+      <Value>0.9</Value>
+      <Value>1.0</Value>
+      <Value>1.1</Value>
+      <Value>1.2</Value>
+      <Value>1.3</Value>
+      <Value>1.4</Value>
+      <Value>1.5</Value>
+      <Value>1.6</Value>
+      <Value>1.7</Value>
+      <Value>1.8</Value>
+      <Value>1.9</Value>
+      <Value>2.0</Value>
+      <Value>2.1</Value>
+      <Value>2.2</Value>
+      <Value>2.3</Value>
+      <Value>2.4</Value>
+      <Value>2.5</Value>
+      <Value>2.6</Value>
+      <Value>2.7</Value>
+      <Value>2.8</Value>
+      <Value>2.9</Value>
+      <Value>3.0</Value>
+      <Value>3.1</Value>
+      <Value>3.2</Value>
+      <Value>3.3</Value>
+      <Value>3.4</Value>
+      <Value>3.5</Value>
+    </FixedValues>
+  </ImyaExpose>
+  <!-- iMYA - Large Oil Tanker - loading speed -->
+  <ModOp GUID="2000510004" Type="replace" Path="/Values/TradeRouteVehicle/LoadingSpeedFactor" ModOpID="LargeOilTankerLoadingSpeedID">
+    <LoadingSpeedFactor>0.8</LoadingSpeedFactor>
+  </ModOp>
+  <ImyaExpose Path="self::LoadingSpeedFactor" ModOpID="LargeOilTankerLoadingSpeedID" ExposeID="LargeOilTankerLoadingSpeed" Description="Large Oil Tanker loading speed. 1 = 100%, 1.5 = 150%, 2 = 200%, ..." Kind="Enum">
+    <FixedValues>
+      <Value>0.1</Value>
+      <Value>0.2</Value>
+      <Value>0.3</Value>
+      <Value>0.4</Value>
+      <Value>0.5</Value>
+      <Value>0.6</Value>
+      <Value>0.7</Value>
+      <Value>0.8</Value>
+      <Value>0.9</Value>
+      <Value>1.0</Value>
+      <Value>1.1</Value>
+      <Value>1.2</Value>
+      <Value>1.3</Value>
+      <Value>1.4</Value>
+      <Value>1.5</Value>
+      <Value>1.6</Value>
+      <Value>1.7</Value>
+      <Value>1.8</Value>
+      <Value>1.9</Value>
+      <Value>2.0</Value>
+      <Value>2.1</Value>
+      <Value>2.2</Value>
+      <Value>2.3</Value>
+      <Value>2.4</Value>
+      <Value>2.5</Value>
+      <Value>2.6</Value>
+      <Value>2.7</Value>
+      <Value>2.8</Value>
+      <Value>2.9</Value>
+      <Value>3.0</Value>
+      <Value>3.1</Value>
+      <Value>3.2</Value>
+      <Value>3.3</Value>
+      <Value>3.4</Value>
+      <Value>3.5</Value>
+    </FixedValues>
   </ImyaExpose>
 </ModOps>
