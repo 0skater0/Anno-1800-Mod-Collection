@@ -1,6 +1,6 @@
 {
   "Version": "1.0.0",
-  "ModID": "0skater0_AdditionalSteamShips",
+  "ModID": "0skater0_AdditionalOilTankers",
   "Category": {
     "Chinese": "Addon",
     "English": "Addon",
@@ -15,17 +15,17 @@
     "Taiwanese": "Addon"
   },
   "ModName": {
-    "Chinese": "Additional Steam Ships",
-    "English": "Additional Steam Ships",
-    "French": "Additional Steam Ships",
-    "German": "Additional Steam Ships",
-    "Italian": "Additional Steam Ships",
-    "Japanese": "Additional Steam Ships",
-    "Korean": "Additional Steam Ships",
-    "Polish": "Additional Steam Ships",
-    "Russian": "Additional Steam Ships",
-    "Spanish": "Additional Steam Ships",
-    "Taiwanese": "Additional Steam Ships"
+    "Chinese": "Additional Oil Tankers",
+    "English": "Additional Oil Tankers",
+    "French": "Additional Oil Tankers",
+    "German": "Additional Oil Tankers",
+    "Italian": "Additional Oil Tankers",
+    "Japanese": "Additional Oil Tankers",
+    "Korean": "Additional Oil Tankers",
+    "Polish": "Additional Oil Tankers",
+    "Russian": "Additional Oil Tankers",
+    "Spanish": "Additional Oil Tankers",
+    "Taiwanese": "Additional Oil Tankers"
   },
   "Description": {
     "Chinese": "file::README.md",

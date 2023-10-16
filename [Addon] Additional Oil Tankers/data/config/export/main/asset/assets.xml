@@ -606,7 +606,7 @@
     </Item>
   </ModOp>
   <!-- ADD ItemEffectTargetPool -->
-  <ModOp Type="add" GUID="193982" Path="/Values/ItemEffectTargetPool/EffectTargetGUIDs">
+  <ModOp Type="addNextSibling" GUID="193982" Path="/Values/ItemEffectTargetPool/EffectTargetGUIDs/Item[GUID='132404']">
     <!-- Medium Oil Tanker -->
     <Item>
       <GUID>2000510000</GUID>
