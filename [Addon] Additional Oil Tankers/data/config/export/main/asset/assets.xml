@@ -145,7 +145,7 @@
                 <Amount>26</Amount>
               </Item>
               <Item>
-                <Ingredient>838</Ingredient>
+                <Ingredient>1010202</Ingredient>
                 <Amount>15</Amount>
               </Item>
             </Costs>
@@ -437,7 +437,7 @@
                 <Amount>40</Amount>
               </Item>
               <Item>
-                <Ingredient>838</Ingredient>
+                <Ingredient>1010202</Ingredient>
                 <Amount>25</Amount>
               </Item>
             </Costs>
@@ -656,11 +656,11 @@
   <ImyaExpose Path="self::Amount" ModOpID="MediumOilTankerSteamMotorsBuildCostID" ExposeID="MediumOilTankerSteamMotorsBuildCost" Description="Medium Oil Tanker steam motors build cost." Kind="Slider">
     <SliderDefinition Min="0" Max="500" Stepping="1" />
   </ImyaExpose>
-  <!-- iMYA - Medium Oil Tanker - build cost - aluminium profiles -->
-  <ModOp GUID="2000510000" Type="replace" Path="/Values/Cost/Costs/Item[Ingredient='838']/Amount" ModOpID="MediumOilTankerAluminiumProfilesBuildCostID">
+  <!-- iMYA - Medium Oil Tanker - build cost - Reinforced Concrete -->
+  <ModOp GUID="2000510000" Type="replace" Path="/Values/Cost/Costs/Item[Ingredient='1010202']/Amount" ModOpID="MediumOilTankerReinforcedConcreteBuildCostID">
     <Amount>15</Amount>
   </ModOp>
-  <ImyaExpose Path="self::Amount" ModOpID="MediumOilTankerAluminiumProfilesBuildCostID" ExposeID="MediumOilTankerAluminiumProfilesBuildCost" Description="Medium Oil Tanker steal beam build cost." Kind="Slider">
+  <ImyaExpose Path="self::Amount" ModOpID="MediumOilTankerReinforcedConcreteBuildCostID" ExposeID="MediumOilTankerReinforcedConcreteBuildCost" Description="Medium Oil Tanker reinforced concrete build cost." Kind="Slider">
     <SliderDefinition Min="0" Max="500" Stepping="1" />
   </ImyaExpose>
   <!-- iMYA - Medium Oil Tanker - oil capacity -->
@@ -792,11 +792,11 @@
   <ImyaExpose Path="self::Amount" ModOpID="LargeOilTankerSteamMotorsBuildCostID" ExposeID="LargeOilTankerSteamMotorsBuildCost" Description="Large Oil Tanker steam motors build cost." Kind="Slider">
     <SliderDefinition Min="0" Max="500" Stepping="1" />
   </ImyaExpose>
-  <!-- iMYA - Large Oil Tanker - build cost - aluminium profiles -->
-  <ModOp GUID="2000510004" Type="replace" Path="/Values/Cost/Costs/Item[Ingredient='838']/Amount" ModOpID="LargeOilTankerAluminiumProfilesBuildCostID">
+  <!-- iMYA - Large Oil Tanker - build cost - Reinforced Concrete -->
+  <ModOp GUID="2000510004" Type="replace" Path="/Values/Cost/Costs/Item[Ingredient='1010202']/Amount" ModOpID="LargeOilTankerReinforcedConcreteBuildCostID">
     <Amount>25</Amount>
   </ModOp>
-  <ImyaExpose Path="self::Amount" ModOpID="LargeOilTankerAluminiumProfilesBuildCostID" ExposeID="LargeOilTankerAluminiumProfilesBuildCost" Description="Large Oil Tanker steal beam build cost." Kind="Slider">
+  <ImyaExpose Path="self::Amount" ModOpID="LargeOilTankerReinforcedConcreteBuildCostID" ExposeID="LargeOilTankerReinforcedConcreteBuildCost" Description="Large Oil Tanker reinforced concrete build cost." Kind="Slider">
     <SliderDefinition Min="0" Max="500" Stepping="1" />
   </ImyaExpose>
   <!-- iMYA - Large Oil Tanker - oil capacity -->
