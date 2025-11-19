@@ -1,3 +1,14 @@
+# Ignore generated files and folders
 \[Cheat\] Remove NPCs/images/
 \[Building\] Huge Oil Depot (Water)/images
 \[Addon\] Additional Steam Ships/images
+
+# Local IDE folders
+.idea/
+.vscode/
+.qodo/
+
+# Local 
+.DS_Store
+node_modules/
+vendor/
