@@ -1,4 +1,4 @@
-### GUID Range - [Community GUID Range - GitHub](https://github.com/anno-mods/GuidRanges/tree/main#public-guid-ranges)
+### GUID Range - [Community GUID Range - GitHub]([https://github.com/anno-mods/GuidRanges/tree/main#public-guid-ranges](https://github.com/anno-mods/GuidRanges/blob/main/1800/guids.md#public-guid-ranges))
 | User     |   Start ID |     End ID |
 | :------- | ---------: | ---------: |
 | 0skater0 | 2000510000 | 2000519999 |
